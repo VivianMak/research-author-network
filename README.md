@@ -1,1 +1,1 @@
-# research-author-network
+# Research Author Network
