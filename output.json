@@ -1,0 +1,58 @@
+[
+  {
+    "paperId": "c7785c004ca045cff0ce13a8c948f8513273f2b3",
+    "title": "Underwater confined space mapping by resource\u2010constrained autonomous vehicle",
+    "referenceCount": 72,
+    "citationCount": 10,
+    "authors": [
+      {
+        "authorId": "2002806",
+        "name": "Victoria L. Preston"
+      },
+      {
+        "authorId": "3052618",
+        "name": "T. Salumae"
+      },
+      {
+        "authorId": "1782418",
+        "name": "M. Kruusmaa"
+      }
+    ]
+  },
+  {
+    "paperId": "e95979cd6ac77655c8264439b8d92ad1f69334b4",
+    "title": "A Bidirectional-Current CMOS Potentiostat for Fast-Scan Cyclic Voltammetry Detector Arrays",
+    "referenceCount": 30,
+    "citationCount": 25,
+    "authors": [
+      {
+        "authorId": "1403306965",
+        "name": "Carlos I. Dorta-Qui\u00f1ones"
+      },
+      {
+        "authorId": "144372784",
+        "name": "Meng Huang"
+      },
+      {
+        "authorId": "32174776",
+        "name": "John C. Ruelas"
+      },
+      {
+        "authorId": "145055630",
+        "name": "Joannalyn Delacruz"
+      },
+      {
+        "authorId": "2624107",
+        "name": "A. Apsel"
+      },
+      {
+        "authorId": "1769552",
+        "name": "B. Minch"
+      },
+      {
+        "authorId": "34790932",
+        "name": "M. Lindau"
+      }
+    ]
+  }
+]
