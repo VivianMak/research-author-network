@@ -1,0 +1,5790 @@
+[
+  {
+    "authorId": "5201322",
+    "papers": [
+      {
+        "paperId": "9b2ce7904af9e3f9bf2d82e8650167b6c52d227f",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2065907396",
+            "name": "Noura Howell"
+          },
+          {
+            "authorId": "2479251",
+            "name": "N. Karst"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          },
+          {
+            "authorId": "2146280699",
+            "name": "Junjie Zhu"
+          }
+        ]
+      },
+      {
+        "paperId": "210fbcb4987bd5ab43d882cbc3afa7b4167e0a14",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2071561805",
+            "name": "Paul Booth"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          },
+          {
+            "authorId": "2071652349",
+            "name": "Harold Jaffe"
+          }
+        ]
+      },
+      {
+        "paperId": "55789a55aa4dea872fe7a4160f3cf5ebf11220a1",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "66734660",
+            "name": "E. Culler"
+          },
+          {
+            "authorId": "31437043",
+            "name": "M. Murugan"
+          },
+          {
+            "authorId": "40347312",
+            "name": "Connor Stokes"
+          },
+          {
+            "authorId": "2144294971",
+            "name": "Steven Zhang"
+          }
+        ]
+      },
+      {
+        "paperId": "967ce913a65b3da6b77355d5c4a198d0f0954452",
+        "authors": [
+          {
+            "authorId": "31437043",
+            "name": "M. Murugan"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "39b23c043c56d49faa9b09e25fa940d5f3a5b5f6",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "145726118",
+            "name": "J. Davis"
+          },
+          {
+            "authorId": "2479251",
+            "name": "N. Karst"
+          },
+          {
+            "authorId": "31437043",
+            "name": "M. Murugan"
+          },
+          {
+            "authorId": "3279962",
+            "name": "Bryce Lee"
+          },
+          {
+            "authorId": "2066467537",
+            "name": "Matthew Crawford"
+          },
+          {
+            "authorId": "27937915",
+            "name": "Caitlin Greeley"
+          }
+        ]
+      },
+      {
+        "paperId": "9a6ba2527c991fc684edc926d76f3537786c8807",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          }
+        ]
+      },
+      {
+        "paperId": "d0a09c7d392d82fde6389d0f3a435c8e48961a3e",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "1899285",
+            "name": "Zachary Brass"
+          },
+          {
+            "authorId": "40347312",
+            "name": "Connor Stokes"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          }
+        ]
+      },
+      {
+        "paperId": "fac94348031c1a0d7e60221ad832e466cda43224",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          },
+          {
+            "authorId": "2586453",
+            "name": "S. L. Zinnen"
+          }
+        ]
+      },
+      {
+        "paperId": "fade735c87877af21c1c1b57aa1dfe6a6099f2f2",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2479251",
+            "name": "N. Karst"
+          },
+          {
+            "authorId": "31437043",
+            "name": "M. Murugan"
+          },
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          }
+        ]
+      },
+      {
+        "paperId": "013246f92faba066aa297f0f9af0a65e86ed95c5",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "21007c3e4ed3b4e943a09b87bc09c83b1b29b233",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2479251",
+            "name": "N. Karst"
+          },
+          {
+            "authorId": "31437043",
+            "name": "M. Murugan"
+          }
+        ]
+      },
+      {
+        "paperId": "265cb097de13cba6e282eae880fdd8c6acd73fac",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "29135c56c2eaec872ed5d30a3a67b1fabccaac52",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "31335a9160a43be470142b4d806ae4faf56662c6",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "4d4d205e114dcdee3754e477cf981af6704a7de4",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "5309ebf74546629ca24b2ed2b1ac15330f83d958",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "7ea64bf966536f3b9c6eca8b24aaacf235f50f6e",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "ae55ae84ba2b05f66126909cc3c5cd46baa45fdc",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "b89731e7e576efd5b65e5df9d30fb56c96abeeb8",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "bc05616cd5ceb7992440453e90e48a3683a5da5a",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "bc997bc8245955be4d98aeeb203b1d313df9811e",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "bd684238b01cf38b3affc8f8f53b6a3bd9706d6a",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "be4e5bb27ee02e40d1b6ce71dff1af51be2ea16d",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "ca99e182d6ff428149c67ff48812761e81cc3432",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "d6b7e0eda434f71c7654e3e0d6abc8970273e42d",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "dfd43fe62d7c2bfad71cf2903184e0809106f377",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2348887",
+            "name": "Alex J. Trazkovich"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          },
+          {
+            "authorId": "2454867",
+            "name": "Bradford S. Westgate"
+          }
+        ]
+      },
+      {
+        "paperId": "dff026ec97a9f2011812b2cf676f0ca9662051b0",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "e43b4b3e8d32a09891cb3046ce8f31f907f6d09b",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "f911ffccb115c13b498bd388a16c8f47a699712d",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "fb9f17ae7d9f779319b97f690903eea10e858685",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "0e08bc1c98d086da345859b323e9c199240114ae",
+        "authors": [
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "1696556",
+            "name": "B. Wysocki"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "165677412752d5c2da8c11f8c200a65f90e39ac0",
+        "authors": [
+          {
+            "authorId": "1696556",
+            "name": "B. Wysocki"
+          },
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "16cc970ec90fc418cd9e7089d9d7a732aa8f0894",
+        "authors": [
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "1696556",
+            "name": "B. Wysocki"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "3318162",
+            "name": "F. Olin"
+          }
+        ]
+      },
+      {
+        "paperId": "487353e1af04ad9ea0d322391b823ad8517392a5",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2066467537",
+            "name": "Matthew Crawford"
+          },
+          {
+            "authorId": "27937915",
+            "name": "Caitlin Greeley"
+          },
+          {
+            "authorId": "3279962",
+            "name": "Bryce Lee"
+          },
+          {
+            "authorId": "31437043",
+            "name": "M. Murugan"
+          }
+        ]
+      },
+      {
+        "paperId": "4f5e58fc2ad0264ecb532c64edf3e39ae6c5fc91",
+        "authors": [
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "1696556",
+            "name": "B. Wysocki"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "775136ceff91c32f29a0dde7d71c4828540508a4",
+        "authors": [
+          {
+            "authorId": "2573207",
+            "name": "Le Chung Tran"
+          },
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "145962457",
+            "name": "J. Seberry"
+          },
+          {
+            "authorId": "1759099",
+            "name": "A. Mertins"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "8e10a9ba73648a8f20d25b98da9c936c619fce18",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "70519118",
+            "name": "R. Gillman"
+          },
+          {
+            "authorId": "38907363",
+            "name": "Darren A. Narayan"
+          }
+        ]
+      },
+      {
+        "paperId": "9abff3f992f557a688daa934f0c13b45425da7b1",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "b1222be6ffbe9d3e98d16a36196189a2348fa84e",
+        "authors": [
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "1696556",
+            "name": "B. Wysocki"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "1b0531041b10b5e59ba5dcaaf8aec4b3a5256c36",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "5966cf249a5757ebdee538d7b8656a7f57117e23",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "145962457",
+            "name": "J. Seberry"
+          },
+          {
+            "authorId": "2479251",
+            "name": "N. Karst"
+          },
+          {
+            "authorId": "144587731",
+            "name": "Jonathan Pollack"
+          },
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          }
+        ]
+      },
+      {
+        "paperId": "77a73d3adb94c2cc043e511ee6f2d9e64dc4fbcd",
+        "authors": [
+          {
+            "authorId": "145962457",
+            "name": "J. Seberry"
+          },
+          {
+            "authorId": "49728141",
+            "name": "Kenneth Finlayson"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "1704522",
+            "name": "Tianbing Xia"
+          },
+          {
+            "authorId": "1696556",
+            "name": "B. Wysocki"
+          }
+        ]
+      },
+      {
+        "paperId": "7a51f7f3975300ba793f41630e75e52134d909c7",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "38907363",
+            "name": "Darren A. Narayan"
+          }
+        ]
+      },
+      {
+        "paperId": "0573b5ed6ab745cbfcd06ec702c0f8c66dbd99c8",
+        "authors": [
+          {
+            "authorId": "1696556",
+            "name": "B. Wysocki"
+          },
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "145962457",
+            "name": "J. Seberry"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "145505074",
+            "name": "H. Sharif"
+          }
+        ]
+      },
+      {
+        "paperId": "2af24ff2ddc9581dcf2b3dce987ba8d61a598c9a",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2479251",
+            "name": "N. Karst"
+          },
+          {
+            "authorId": "144587731",
+            "name": "Jonathan Pollack"
+          }
+        ]
+      },
+      {
+        "paperId": "6aff6f4060615cc03f47519960c945f8cdea3c45",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2073855850",
+            "name": "Jonathan Cass"
+          },
+          {
+            "authorId": "2099631250",
+            "name": "Matthew Tesch"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          },
+          {
+            "authorId": "2081526736",
+            "name": "Cody Wheeland"
+          }
+        ]
+      },
+      {
+        "paperId": "799e4821bad213df515df71a5bb68beb0f75ef00",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2099631250",
+            "name": "Matthew Tesch"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          },
+          {
+            "authorId": "2454867",
+            "name": "Bradford S. Westgate"
+          },
+          {
+            "authorId": "2081526736",
+            "name": "Cody Wheeland"
+          }
+        ]
+      },
+      {
+        "paperId": "3cd4872e28d8ec93c098320d88bb40f06aa26673",
+        "authors": [
+          {
+            "authorId": "145962457",
+            "name": "J. Seberry"
+          },
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "3ef01462d27e214f98277d87d98d97f24c929d00",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2479251",
+            "name": "N. Karst"
+          },
+          {
+            "authorId": "144587731",
+            "name": "Jonathan Pollack"
+          },
+          {
+            "authorId": "145962457",
+            "name": "J. Seberry"
+          }
+        ]
+      },
+      {
+        "paperId": "5c54664b821ad72f2e2f970920904216db497a01",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "2073855850",
+            "name": "Jonathan Cass"
+          },
+          {
+            "authorId": "2835817",
+            "name": "Denise Sakai Troxell"
+          }
+        ]
+      },
+      {
+        "paperId": "f2682ae24149cf31a44372b2c310962973ea5088",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "1f18aa95a0385f41ee5bbf1b0f239e8ee6be44b6",
+        "authors": [
+          {
+            "authorId": "2573207",
+            "name": "Le Chung Tran"
+          },
+          {
+            "authorId": "49174595",
+            "name": "T. Wysocki"
+          },
+          {
+            "authorId": "145962457",
+            "name": "J. Seberry"
+          },
+          {
+            "authorId": "1759099",
+            "name": "A. Mertins"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      },
+      {
+        "paperId": "c94eb22fc6e3eae3e531198230882f9236e9b0f2",
+        "authors": [
+          {
+            "authorId": "70438402",
+            "name": "M. Somerville"
+          },
+          {
+            "authorId": "49477126",
+            "name": "David Anderson"
+          },
+          {
+            "authorId": "2256633",
+            "name": "H. Berbeco"
+          },
+          {
+            "authorId": "2523303",
+            "name": "J. Bourne"
+          },
+          {
+            "authorId": "1835606",
+            "name": "J. Crisman"
+          },
+          {
+            "authorId": "3256594",
+            "name": "Diana Dabby"
+          },
+          {
+            "authorId": "1402538944",
+            "name": "H. Donis-Keller"
+          },
+          {
+            "authorId": "33900638",
+            "name": "S. Holt"
+          },
+          {
+            "authorId": "122317675",
+            "name": "S. Kerns"
+          },
+          {
+            "authorId": "34570422",
+            "name": "D. Kerns"
+          },
+          {
+            "authorId": "2984249",
+            "name": "R. Martello"
+          },
+          {
+            "authorId": "2110527505",
+            "name": "Richard K. Miller"
+          },
+          {
+            "authorId": "2070939549",
+            "name": "Michael Moody"
+          },
+          {
+            "authorId": "88662077",
+            "name": "G. Pratt"
+          },
+          {
+            "authorId": "2059188697",
+            "name": "J. Pratt"
+          },
+          {
+            "authorId": "34920258",
+            "name": "Christina Shea"
+          },
+          {
+            "authorId": "31778648",
+            "name": "Stephen J. Schiffman"
+          },
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          },
+          {
+            "authorId": "34389262",
+            "name": "L. Stein"
+          },
+          {
+            "authorId": "49620117",
+            "name": "J. Stolk"
+          },
+          {
+            "authorId": "39215697",
+            "name": "B. Storey"
+          },
+          {
+            "authorId": "144408525",
+            "name": "B. Tilley"
+          },
+          {
+            "authorId": "2080619090",
+            "name": "Benjamin Vandiver"
+          },
+          {
+            "authorId": "2261404",
+            "name": "Y. Zastavker"
+          }
+        ]
+      },
+      {
+        "paperId": "b8e6d0d5e1f4f5f8927cb6a06d4a74da83741739",
+        "authors": [
+          {
+            "authorId": "5201322",
+            "name": "Sarah Spence Adams"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "authorId": "1769552",
+    "papers": [
+      {
+        "paperId": "50e8f29bb7ba2c90e49e48d9bb62402f8b9810ec",
+        "authors": [
+          {
+            "authorId": "144372784",
+            "name": "Meng Huang"
+          },
+          {
+            "authorId": "1403306965",
+            "name": "Carlos I. Dorta-Qui\u00f1ones"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "34790932",
+            "name": "M. Lindau"
+          }
+        ]
+      },
+      {
+        "paperId": "c427dee01fa90897fd189e0f4dd4d2bdf9587c5a",
+        "authors": [
+          {
+            "authorId": "27858662",
+            "name": "Kevin A. White"
+          },
+          {
+            "authorId": "11958402",
+            "name": "Geoffrey Mulberry"
+          },
+          {
+            "authorId": "51126057",
+            "name": "Jonhoi Smith"
+          },
+          {
+            "authorId": "34790932",
+            "name": "M. Lindau"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "46622263",
+            "name": "K. Sugaya"
+          },
+          {
+            "authorId": "17113262",
+            "name": "Brian N. Kim"
+          }
+        ]
+      },
+      {
+        "paperId": "e95979cd6ac77655c8264439b8d92ad1f69334b4",
+        "authors": [
+          {
+            "authorId": "1403306965",
+            "name": "Carlos I. Dorta-Qui\u00f1ones"
+          },
+          {
+            "authorId": "144372784",
+            "name": "Meng Huang"
+          },
+          {
+            "authorId": "32174776",
+            "name": "John C. Ruelas"
+          },
+          {
+            "authorId": "145055630",
+            "name": "Joannalyn Delacruz"
+          },
+          {
+            "authorId": "2624107",
+            "name": "A. Apsel"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "34790932",
+            "name": "M. Lindau"
+          }
+        ]
+      },
+      {
+        "paperId": "5339cedc84685f224ad29d70a6aa102a876ce629",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "9cdbdb6b24f7fd9fdecae7f6a7f90c740906dcdf",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "8570a1bf5ba096d3c3c957ff13447ffe95a62907",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "47d04d00d4ef879d0b73c6b783f23f52c35e25a0",
+        "authors": [
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "4852b1fa49d0ee395259dcc2ebb3cd345592e3c7",
+        "authors": [
+          {
+            "authorId": "2286618062",
+            "name": "N. Sundaram"
+          },
+          {
+            "authorId": "2286705969",
+            "name": "Y. Lee"
+          },
+          {
+            "authorId": "2286939937",
+            "name": "M. Murphy"
+          },
+          {
+            "authorId": "2286553926",
+            "name": "Christoph H. Lampert"
+          },
+          {
+            "authorId": "2286352712",
+            "name": "Jan Peters"
+          },
+          {
+            "authorId": "2272543994",
+            "name": "Christopher J. Diorio"
+          },
+          {
+            "authorId": "2286455885",
+            "name": "Sunit Mahajan"
+          },
+          {
+            "authorId": "2286618088",
+            "name": "Paul Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2286629563",
+            "name": "Carver Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "d0cfc0b609629895eea8e8ee12a32f8e315f1022",
+        "authors": [
+          {
+            "authorId": "1704961",
+            "name": "Shih-Chii Liu"
+          },
+          {
+            "authorId": "1738347",
+            "name": "A. Schaik"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "5548576",
+            "name": "Tobi Delbruck"
+          }
+        ]
+      },
+      {
+        "paperId": "d970871758d4d18a8d8d3b3e15699d1b35b4caa0",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "9ad2775d4b1425e3e78e16afdaa1ade422289d27",
+        "authors": [
+          {
+            "authorId": "17113262",
+            "name": "Brian N. Kim"
+          },
+          {
+            "authorId": "7457625",
+            "name": "A. D. Herbst"
+          },
+          {
+            "authorId": "2031252073",
+            "name": "S. J. Kim"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "34790932",
+            "name": "M. Lindau"
+          }
+        ]
+      },
+      {
+        "paperId": "13a842798336a6bce1170b3e35e4c355fd3e7a03",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "9f65484e79c4e81c62eb691bb8a605f8076b71ca",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "0b37b1a46953a64abd30552ac37a64bec17ec9d7",
+        "authors": [
+          {
+            "authorId": "1704961",
+            "name": "Shih-Chii Liu"
+          },
+          {
+            "authorId": "1738347",
+            "name": "A. Schaik"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "5548576",
+            "name": "Tobi Delbruck"
+          }
+        ]
+      },
+      {
+        "paperId": "d5fb438c218884233d147d36bd9e7d46c8d299e6",
+        "authors": [
+          {
+            "authorId": "153859157",
+            "name": "S. Ayers"
+          },
+          {
+            "authorId": "2010125",
+            "name": "Khajak Berberian"
+          },
+          {
+            "authorId": "1881499",
+            "name": "K. Gillis"
+          },
+          {
+            "authorId": "34790932",
+            "name": "M. Lindau"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "64c9259c51913b6c1a3524d9156076e1660a3413",
+        "authors": [
+          {
+            "authorId": "40571839",
+            "name": "K. Odame"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "0a9cd697c682a86c86e053795ae9db7134ae508c",
+        "authors": [
+          {
+            "authorId": "40207387",
+            "name": "Sheng-Yu Peng"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          }
+        ]
+      },
+      {
+        "paperId": "2dfa155eaa3b4b2ba71aeea0d43cfc3b1c7d204b",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "38a02b45a42b17a7a7fd4a939b28e209f2d7f1a1",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "5f4962995045b7dc6d6b8cb1d072a6de28738954",
+        "authors": [
+          {
+            "authorId": "153859157",
+            "name": "S. Ayers"
+          },
+          {
+            "authorId": "1881499",
+            "name": "K. Gillis"
+          },
+          {
+            "authorId": "34790932",
+            "name": "M. Lindau"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "b699999bc1dabc99355111fe0d3e97fd1dff7f30",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "efc2f246a07b3fca3608da070f0ff58f6e7c47da",
+        "authors": [
+          {
+            "authorId": "50324262",
+            "name": "Shyam Subramanian"
+          },
+          {
+            "authorId": "47965262",
+            "name": "David V. Anderson"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "3ab51c127607a88ad54f79f724302482ef890769",
+        "authors": [
+          {
+            "authorId": "40571839",
+            "name": "K. Odame"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "79bc0ca9b7d3c666bb5c2d562d672e734cc00261",
+        "authors": [
+          {
+            "authorId": "40207387",
+            "name": "Sheng-Yu Peng"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          }
+        ]
+      },
+      {
+        "paperId": "e4ca5b141e5fc5c2a0e74631f4f7709e2222c1d3",
+        "authors": [
+          {
+            "authorId": "50324262",
+            "name": "Shyam Subramanian"
+          },
+          {
+            "authorId": "47965262",
+            "name": "David V. Anderson"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "068a5d019d3b28afa792351bf4fbb6f04c0efab8",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "07891ebe5a0884540d6e9b5f5f8f2ba5f16f6508",
+        "authors": [
+          {
+            "authorId": "35060271",
+            "name": "R. Chawla"
+          },
+          {
+            "authorId": "37839321",
+            "name": "H. Lo"
+          },
+          {
+            "authorId": "1824852",
+            "name": "A. Basu"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "7b2bd8006629dddb9ca77584e301365eac31a6f1",
+        "authors": [
+          {
+            "authorId": "92387134",
+            "name": "N. Shen"
+          },
+          {
+            "authorId": "12907684",
+            "name": "Zengtao Liu"
+          },
+          {
+            "authorId": "31790856",
+            "name": "B. Jacquot"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2410304",
+            "name": "E. Kan"
+          }
+        ]
+      },
+      {
+        "paperId": "cf0a6fe52da35f9e262f920ccec00825a4b0feb0",
+        "authors": [
+          {
+            "authorId": "144364404",
+            "name": "A. Kumar"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "145922371",
+            "name": "S. Tiwari"
+          }
+        ]
+      },
+      {
+        "paperId": "ff3c81cc5d5f3bd0d5c66b8180d1ae7d2506ce56",
+        "authors": [
+          {
+            "authorId": "37839321",
+            "name": "H. Lo"
+          },
+          {
+            "authorId": "143995744",
+            "name": "G. Serrano"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "47965262",
+            "name": "David V. Anderson"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "1b9ffb8a8205544dab3e328eceb0c4d17a172dc3",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "21c962580edd0abeb9c7105399fe44d338f9381b",
+        "authors": [
+          {
+            "authorId": "2083170478",
+            "name": "E. J. McDonald"
+          },
+          {
+            "authorId": "2195502185",
+            "name": "K.M. Odame"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "346efd512a870138d8b78b16926112c125b98939",
+        "authors": [
+          {
+            "authorId": "92387134",
+            "name": "N. Shen"
+          },
+          {
+            "authorId": "112858940",
+            "name": "Z. Liu"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2082926679",
+            "name": "E.C. Ken"
+          }
+        ]
+      },
+      {
+        "paperId": "398fbcc5bc49df12380c95d8b0b536f6e2a2f859",
+        "authors": [
+          {
+            "authorId": "2195502185",
+            "name": "K.M. Odame"
+          },
+          {
+            "authorId": "2083170478",
+            "name": "E. J. McDonald"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "af2070de85bdbd94df28d6a766506caf79a0a87b",
+        "authors": [
+          {
+            "authorId": "92017259",
+            "name": "G. Pei"
+          },
+          {
+            "authorId": "2056887439",
+            "name": "W. Ni"
+          },
+          {
+            "authorId": "2269332760",
+            "name": "A. V. Kammula"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2410304",
+            "name": "E. Kan"
+          }
+        ]
+      },
+      {
+        "paperId": "d4759504a4fa1f90b1d990beaf09899c67f4e672",
+        "authors": [
+          {
+            "authorId": "2269332757",
+            "name": "A. Kammula"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "dbc4e51ce2687a3f373a17539f90b5d4bf6a3ebf",
+        "authors": [
+          {
+            "authorId": "92387134",
+            "name": "N. Shen"
+          },
+          {
+            "authorId": "12907684",
+            "name": "Zengtao Liu"
+          },
+          {
+            "authorId": "103173515",
+            "name": "Chungho Lee"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2410304",
+            "name": "E. Kan"
+          }
+        ]
+      },
+      {
+        "paperId": "109cbdcaa31165874c99088ccd1664809d78de94",
+        "authors": [
+          {
+            "authorId": "2083170478",
+            "name": "E. J. McDonald"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "3b538ddbdfabb013c098d3e8739083d3caf3f113",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "751c572b80b5b5e0fd532450a7935bb1bbdd23dd",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "81cbbf88bcc29411b81d211e306d361e49943c2c",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "c30898d7124a78c3888e6f4fa6064a5cc05ae821",
+        "authors": [
+          {
+            "authorId": "2083170478",
+            "name": "E. J. McDonald"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "c56c86576aea2e1dbb1985a8c62acc6003986ce3",
+        "authors": [
+          {
+            "authorId": "2083170478",
+            "name": "E. J. McDonald"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "d7dfd891fa6b1a6356902ad161247c4c55660779",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "f648fbc080d9a0ad10ab10b8d9aa010cc67b80f5",
+        "authors": [
+          {
+            "authorId": "1704961",
+            "name": "Shih-Chii Liu"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "ff0453eaf7a81b793db631c87a30fcd6b1cf5938",
+        "authors": [
+          {
+            "authorId": "2172632",
+            "name": "Mark Neidengard"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "7a475e8e4f3aa246cc64f4dd36d608ab1049039e",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "97806613",
+            "name": "T. Stanford"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "9461614e1b73a5401b3dc36b5734bc922a648a2c",
+        "authors": [
+          {
+            "authorId": "2072395715",
+            "name": "R. R. Harrison"
+          },
+          {
+            "authorId": "32688831",
+            "name": "J. A. Bragg"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1690055",
+            "name": "S. DeWeerth"
+          }
+        ]
+      },
+      {
+        "paperId": "f14efa4bed3e5647718aceb3225c665ea5718502",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "f8f716bc63ab788fa825248e0de41458c2c0d76d",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "5610c88a9815b9a80d3b2c25b2fc629304a76b00",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "5960a238fa20bcc6c4b615fcd45c43faed335fa5",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "5f98855a47196f4418d0a4fc7bb7be9f698e2c08",
+        "authors": [
+          {
+            "authorId": "1704961",
+            "name": "Shih-Chii Liu"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "b84c57e4ad94229318a49838eb76976bb1c4134d",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "bf368e9e855e70c156aaf3206c966b126ab4b6e0",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "ef39ea23a024e0ea5315354bb354ef52764d88d6",
+        "authors": [
+          {
+            "authorId": "7566655",
+            "name": "Hongrui Jiang"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2115739072",
+            "name": "Ye Wang"
+          },
+          {
+            "authorId": "121067731",
+            "name": "J.-L.A. Yeh"
+          },
+          {
+            "authorId": "145741210",
+            "name": "C. Tien"
+          }
+        ]
+      },
+      {
+        "paperId": "1e7443d424525af07c359450ec242a5bf4a9938f",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "2916bc950cc08ade92eb2a9da994135e2ef0243b",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          }
+        ]
+      },
+      {
+        "paperId": "730bfc3de6485f4525dfd09a88b066efd9eda418",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "8453bc2ca7ed3b56f3e4fb2f123a7df7d48aea12",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "b78bd6405208b76b68a852cc53e7411a38b64db4",
+        "authors": [
+          {
+            "authorId": "2238021354",
+            "name": "Paul Hasler"
+          },
+          {
+            "authorId": "3002381",
+            "name": "M. Kucic"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "bcf43b37ecb6d9ee71660f1cd8bdab652a858755",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "144f531cca31ca88af789980301eb267f6594cd1",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "97806613",
+            "name": "T. Stanford"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "675dc9ea155ca54cb317572dfe3eec4fbf9cb6c3",
+        "authors": [
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "6dffa102233668bbd07b1db603c87c290b1c7f3d",
+        "authors": [
+          {
+            "authorId": "2238021354",
+            "name": "Paul Hasler"
+          },
+          {
+            "authorId": "2272543994",
+            "name": "Christopher J. Diorio"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "70cab7a0fd0cdb753b8f10621ad33f80b29616b2",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "7ce04e8c90747f6b1149d9a117136fa31bb7f62b",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2238021354",
+            "name": "Paul Hasler"
+          },
+          {
+            "authorId": "2272543994",
+            "name": "Christopher J. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "995f826740900a4bcc37b5a3e197dec3647abace",
+        "authors": [
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "9ce89d2adb04b799df9e871871467be358362d2b",
+        "authors": [
+          {
+            "authorId": "2072395715",
+            "name": "R. R. Harrison"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "9d88f550575c398ffcf48727168bc998164cc16e",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "aad658c02d83db197a9870106fdaa2418ccd30a4",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2238021354",
+            "name": "Paul Hasler"
+          },
+          {
+            "authorId": "2272543994",
+            "name": "Christopher J. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "ce55f3b4f29d1caa1188120278ebf30fbf808eea",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          }
+        ]
+      },
+      {
+        "paperId": "ef96900a178f93b397d8a909ec585f09e8070d1c",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "2730857",
+            "name": "A. Andreou"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "a24b14ab8c4c0ca890f9d6b167a43633b086ff5e",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      },
+      {
+        "paperId": "d89ff6941c08e6100197529a9b30aa463a553bf1",
+        "authors": [
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "ebab7b88a08a1d282d34dfd1b7a6d41ff90bd50e",
+        "authors": [
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "35e13e2f9f53bba5a4643265a1a3581d5fb0e318",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "2272543994",
+            "name": "Christopher J. Diorio"
+          },
+          {
+            "authorId": "2238021354",
+            "name": "Paul Hasler"
+          },
+          {
+            "authorId": "2259301393",
+            "name": "Carver Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "488a7bdf0a70f35d4c96ee36d50f14b29e4e53a2",
+        "authors": [
+          {
+            "authorId": "2073637351",
+            "name": "W. F. Kruger"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "145624227",
+            "name": "C. Koch"
+          }
+        ]
+      },
+      {
+        "paperId": "5a3591dbbce73a085249b34f3c116323d8fee423",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "122210473",
+            "name": "D. Diorio"
+          },
+          {
+            "authorId": "72241355",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "9be4cbbb0f233ae745892249a28fa17ace6b53e9",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "4ef700e4b190daa7145e2f6cbfefb67c20fe5b40",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "a494b491719f24d3d1a0b560f6afea223e4e94b6",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "fbf0a8993bbe34f003d62e25035a2957d6ddc605",
+        "authors": [
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "153722918",
+            "name": "S. Mahajan"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "153d35c411b4957b07db78f7d8bd201a4af8f4bc",
+        "authors": [
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "c2394770d1619fb26dae479d926532b7528e7299",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          },
+          {
+            "authorId": "1687710",
+            "name": "P. Hasler"
+          },
+          {
+            "authorId": "1767180",
+            "name": "C. Diorio"
+          },
+          {
+            "authorId": "17141020",
+            "name": "C. Mead"
+          }
+        ]
+      },
+      {
+        "paperId": "b290fa7f58c676af3fe64dc7cf2267abe0153eda",
+        "authors": [
+          {
+            "authorId": "1769552",
+            "name": "B. Minch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "authorId": "2002806",
+    "papers": [
+      {
+        "paperId": "eff989696dbf02d01b3d9b418f26d7a0196918b1",
+        "authors": [
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "2980470",
+            "name": "Genevieve Flaspohler"
+          },
+          {
+            "authorId": "2279637887",
+            "name": "John Fisher"
+          },
+          {
+            "authorId": "2279627930",
+            "name": "Anna P. M. Michel"
+          },
+          {
+            "authorId": "153676652",
+            "name": "Nicholas Roy"
+          }
+        ]
+      },
+      {
+        "paperId": "5145d87898f8cb84e754e9c90d70d7390594a550",
+        "authors": [
+          {
+            "authorId": "2184669880",
+            "name": "Jess Horowitz"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          }
+        ]
+      },
+      {
+        "paperId": "6cc3201fbb2ec7b82cae1f20e90033be79587afc",
+        "authors": [
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "2980470",
+            "name": "Genevieve Flaspohler"
+          },
+          {
+            "authorId": "4154652",
+            "name": "J. Kapit"
+          },
+          {
+            "authorId": "93718905",
+            "name": "William A. Pardis"
+          },
+          {
+            "authorId": "2142666681",
+            "name": "Sarah Youngs"
+          },
+          {
+            "authorId": "1391538399",
+            "name": "Donald E. Martocello"
+          },
+          {
+            "authorId": "153676652",
+            "name": "Nicholas Roy"
+          },
+          {
+            "authorId": "4771901",
+            "name": "P. Girguis"
+          },
+          {
+            "authorId": "4004919",
+            "name": "S. Wankel"
+          },
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          }
+        ]
+      },
+      {
+        "paperId": "8c76f06e09fa152e68c6347e7bb3ddc0ade416fb",
+        "authors": [
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "2980470",
+            "name": "Genevieve Flaspohler"
+          },
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          },
+          {
+            "authorId": "31496901",
+            "name": "John W. Fisher III"
+          },
+          {
+            "authorId": "143724999",
+            "name": "N. Roy"
+          }
+        ]
+      },
+      {
+        "paperId": "1026bb671ccb335c850936c30292b323d5cefb06",
+        "authors": [
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "2355059899",
+            "name": "K. E. Fauria"
+          },
+          {
+            "authorId": "49369290",
+            "name": "D. Nicholson"
+          }
+        ]
+      },
+      {
+        "paperId": "72de5476484a0235433799f8027e7b38ad3d0e47",
+        "authors": [
+          {
+            "authorId": "2080026777",
+            "name": "Gregory J. Stein"
+          },
+          {
+            "authorId": "10289493",
+            "name": "Christopher Bradley"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "143724999",
+            "name": "N. Roy"
+          }
+        ]
+      },
+      {
+        "paperId": "96f8e6917df8aed5243c0789694ee56215d3424a",
+        "authors": [
+          {
+            "authorId": "10289493",
+            "name": "Christopher Bradley"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          }
+        ]
+      },
+      {
+        "paperId": "b5d6f65661d9e45b19a8f63f8c223f6d1f012704",
+        "authors": [
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          },
+          {
+            "authorId": "52205214",
+            "name": "A. Morrison"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "108701096",
+            "name": "Charles T. Marx"
+          },
+          {
+            "authorId": "152866662",
+            "name": "Beckett C. Colson"
+          },
+          {
+            "authorId": "47523301",
+            "name": "H. K. White"
+          }
+        ]
+      },
+      {
+        "paperId": "06fe8348a9535f35f2e1225492c2c4c531498b29",
+        "authors": [
+          {
+            "authorId": "1382859411",
+            "name": "N. Yoder"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          }
+        ]
+      },
+      {
+        "paperId": "74559aaf76f2896ffd1e9ec9127405006dd4f8dc",
+        "authors": [
+          {
+            "authorId": "2980470",
+            "name": "Genevieve Flaspohler"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "153676652",
+            "name": "Nicholas Roy"
+          },
+          {
+            "authorId": "2113619081",
+            "name": "J. Fisher"
+          },
+          {
+            "authorId": "143659109",
+            "name": "Adam Soule"
+          },
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          }
+        ]
+      },
+      {
+        "paperId": "9672363b1c105f658272698a9348c3fddad1a3e5",
+        "authors": [
+          {
+            "authorId": "2980470",
+            "name": "Genevieve Flaspohler"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          },
+          {
+            "authorId": "1679896",
+            "name": "Yogesh A. Girdhar"
+          },
+          {
+            "authorId": "153676652",
+            "name": "Nicholas Roy"
+          }
+        ]
+      },
+      {
+        "paperId": "bfe5d1bdbcc05a5ca003ad362eb4f480b3056017",
+        "authors": [
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          }
+        ]
+      },
+      {
+        "paperId": "f8f3562d9215586d3b821a43bf3d689006e3a635",
+        "authors": [
+          {
+            "authorId": "15480358",
+            "name": "C. Manning"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "40412481",
+            "name": "S. Jones"
+          },
+          {
+            "authorId": "3578054",
+            "name": "A. Michel"
+          },
+          {
+            "authorId": "49369290",
+            "name": "D. Nicholson"
+          },
+          {
+            "authorId": "46585622",
+            "name": "P. Duke"
+          },
+          {
+            "authorId": "144606878",
+            "name": "Mohamed M. M. Ahmed"
+          },
+          {
+            "authorId": "31037660",
+            "name": "Kevin Manganini"
+          },
+          {
+            "authorId": "2136014195",
+            "name": "B. Else"
+          },
+          {
+            "authorId": "108603161",
+            "name": "P. Tortell"
+          }
+        ]
+      },
+      {
+        "paperId": "c7785c004ca045cff0ce13a8c948f8513273f2b3",
+        "authors": [
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "3052618",
+            "name": "T. Salumae"
+          },
+          {
+            "authorId": "1782418",
+            "name": "M. Kruusmaa"
+          }
+        ]
+      },
+      {
+        "paperId": "2dc596bacee1744183e86923bb4a5b8dcbac94b1",
+        "authors": [
+          {
+            "authorId": "47060648",
+            "name": "G. Frost"
+          },
+          {
+            "authorId": "144504522",
+            "name": "D. Lane"
+          },
+          {
+            "authorId": "30880127",
+            "name": "N. Tsiogkas"
+          },
+          {
+            "authorId": "2049066",
+            "name": "D. Spaccini"
+          },
+          {
+            "authorId": "1688720",
+            "name": "C. Petrioli"
+          },
+          {
+            "authorId": "1782418",
+            "name": "M. Kruusmaa"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "14800411",
+            "name": "T. Salum\u00e4e"
+          }
+        ]
+      },
+      {
+        "paperId": "dfd541924dd0b1b43fc7dc41ab101743b482022c",
+        "authors": [
+          {
+            "authorId": "17654852",
+            "name": "Shivali Chandra"
+          },
+          {
+            "authorId": "39971837",
+            "name": "Riley Chapman"
+          },
+          {
+            "authorId": "31120675",
+            "name": "R. DiVerdi"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "2232629",
+            "name": "Jay Woo"
+          },
+          {
+            "authorId": "2274451",
+            "name": "A. Bennett"
+          },
+          {
+            "authorId": "143697138",
+            "name": "David Barrett"
+          }
+        ]
+      },
+      {
+        "paperId": "4a5b9c0b30aae8f4ac4cb744a0a618fc85f6e284",
+        "authors": [
+          {
+            "authorId": "2274451",
+            "name": "A. Bennett"
+          },
+          {
+            "authorId": "143697138",
+            "name": "David Barrett"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "2232629",
+            "name": "Jay Woo"
+          },
+          {
+            "authorId": "17654852",
+            "name": "Shivali Chandra"
+          },
+          {
+            "authorId": "1393456673",
+            "name": "Devynn Diggins"
+          },
+          {
+            "authorId": "39971837",
+            "name": "Riley Chapman"
+          },
+          {
+            "authorId": "3015583",
+            "name": "A. Wee"
+          },
+          {
+            "authorId": "2513111",
+            "name": "Zhecan Wang"
+          },
+          {
+            "authorId": "144952073",
+            "name": "M. Rush"
+          },
+          {
+            "authorId": "2055969230",
+            "name": "Iain Kerr"
+          }
+        ]
+      },
+      {
+        "paperId": "4c253a274c4614fd277ccd60e5ea6a870e21238e",
+        "authors": [
+          {
+            "authorId": "2274451",
+            "name": "A. Bennett"
+          },
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          },
+          {
+            "authorId": "2232629",
+            "name": "Jay Woo"
+          },
+          {
+            "authorId": "17654852",
+            "name": "Shivali Chandra"
+          },
+          {
+            "authorId": "1393456673",
+            "name": "Devynn Diggins"
+          },
+          {
+            "authorId": "39971837",
+            "name": "Riley Chapman"
+          },
+          {
+            "authorId": "2513111",
+            "name": "Zhecan Wang"
+          },
+          {
+            "authorId": "144952073",
+            "name": "M. Rush"
+          },
+          {
+            "authorId": "39918111",
+            "name": "L. Lye"
+          },
+          {
+            "authorId": "37952572",
+            "name": "Mindy Tieu"
+          },
+          {
+            "authorId": "49199104",
+            "name": "Silas Hughes"
+          },
+          {
+            "authorId": "2055969230",
+            "name": "Iain Kerr"
+          },
+          {
+            "authorId": "3015583",
+            "name": "A. Wee"
+          }
+        ]
+      },
+      {
+        "paperId": "15ef44a32a9ab2b380b15c431230d71072d0c81c",
+        "authors": [
+          {
+            "authorId": "2002806",
+            "name": "Victoria L. Preston"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "authorId": "50058359",
+    "papers": [
+      {
+        "paperId": "00b665d5644228cdfb01fd7b622876e541b7f0d0",
+        "authors": [
+          {
+            "authorId": "143668698",
+            "name": "G. Leus"
+          },
+          {
+            "authorId": "145135725",
+            "name": "A. Marques"
+          },
+          {
+            "authorId": "51283515",
+            "name": "J. Moura"
+          },
+          {
+            "authorId": "145029825",
+            "name": "Antonio Ortega"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "6856624ea327bbac0d5608e1ae707b0fde52affe",
+        "authors": [
+          {
+            "authorId": "1815210",
+            "name": "Elvin Isufi"
+          },
+          {
+            "authorId": "145682863",
+            "name": "Fernando Gama"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2262891",
+            "name": "Santiago Segarra"
+          }
+        ]
+      },
+      {
+        "paperId": "aeadd7f8965dcbdd66d25fa7013d4d0a4cefbc11",
+        "authors": [
+          {
+            "authorId": "2191368903",
+            "name": "Yilin Chen"
+          },
+          {
+            "authorId": "2086254928",
+            "name": "Jennifer DeJong"
+          },
+          {
+            "authorId": "20706601",
+            "name": "Tom Halverson"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "7dfd25e9b811ca247f4fdb5c4756579ac0204f27",
+        "authors": [
+          {
+            "authorId": "2288876",
+            "name": "Tiffany Fan"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2855794",
+            "name": "Shashanka Ubaru"
+          },
+          {
+            "authorId": "1765199",
+            "name": "Y. Saad"
+          }
+        ]
+      },
+      {
+        "paperId": "80f0b9baffb321fae77c6f8bea8ce45f0180b34a",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "2db369952adb453c4fada563d95bca3a1bf564d4",
+        "authors": [
+          {
+            "authorId": "2147261424",
+            "name": "Li Fan"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2855794",
+            "name": "Shashanka Ubaru"
+          },
+          {
+            "authorId": "1765199",
+            "name": "Y. Saad"
+          }
+        ]
+      },
+      {
+        "paperId": "5de4103d0f491ec69205205a61b733e830ac5b17",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "48932791",
+            "name": "Yan Jin"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "5de4103d0f491ec69205205a61b733e830ac5b17",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "48932791",
+            "name": "Yan Jin"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "21a40e38d0a56ff5aed05ede9a1ab62df02f0f66",
+        "authors": [
+          {
+            "authorId": "2210804",
+            "name": "Nathanael Perraudin"
+          },
+          {
+            "authorId": "2171617",
+            "name": "Vassilis Kalofolias"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "52016c7e6077fba9b3281118c723d5255889bf98",
+        "authors": [
+          {
+            "authorId": "2210804",
+            "name": "Nathanael Perraudin"
+          },
+          {
+            "authorId": "1809256",
+            "name": "B. Ricaud"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "86dd60249a34136a88debf3537a90d0955bf0dd5",
+        "authors": [
+          {
+            "authorId": "48932791",
+            "name": "Yan Jin"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "bb2854f2d62c05b7f0ad1d24d2dcee1446661d2f",
+        "authors": [
+          {
+            "authorId": "48932791",
+            "name": "Yan Jin"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "c5708863e13b8a55408a0a355112e2ae8a5544ec",
+        "authors": [
+          {
+            "authorId": "2144552597",
+            "name": "Shuni Li"
+          },
+          {
+            "authorId": "48932791",
+            "name": "Yan Jin"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "0bfd8a5a68258838c6f3fd6736b6523c3c25cdcf",
+        "authors": [
+          {
+            "authorId": "35116679",
+            "name": "P. Maass"
+          },
+          {
+            "authorId": "1803012",
+            "name": "B. Torr\u00e9sani"
+          },
+          {
+            "authorId": "1785455",
+            "name": "H. Feichtinger"
+          },
+          {
+            "authorId": "1404579359",
+            "name": "Darian Onchis-Moaca"
+          },
+          {
+            "authorId": "1809256",
+            "name": "B. Ricaud"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "161fa3214bce2b9d0e524c099fbc714284164341",
+        "authors": [
+          {
+            "authorId": "2210804",
+            "name": "Nathanael Perraudin"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "3242930",
+            "name": "Gilles Puy"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "2f279e57fb507ed526e9f29e642e32e2dff66daf",
+        "authors": [
+          {
+            "authorId": "3333045",
+            "name": "D. Thanou"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1703189",
+            "name": "P. Frossard"
+          }
+        ]
+      },
+      {
+        "paperId": "8736e9f885d85f1ee45f1e73cf0fbe898c7fa2b5",
+        "authors": [
+          {
+            "authorId": "2210804",
+            "name": "Nathanael Perraudin"
+          },
+          {
+            "authorId": "2038094",
+            "name": "Johan Paratte"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2171617",
+            "name": "Vassilis Kalofolias"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          },
+          {
+            "authorId": "7901269",
+            "name": "D. Hammond"
+          }
+        ]
+      },
+      {
+        "paperId": "bf7911b6f50af748ce5a649075a2d9a3a195ce65",
+        "authors": [
+          {
+            "authorId": "3333045",
+            "name": "D. Thanou"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1703189",
+            "name": "P. Frossard"
+          }
+        ]
+      },
+      {
+        "paperId": "3fd120f30d39f67cd481694592fac0c139c21817",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1758893",
+            "name": "Christoph Wiesmeyr"
+          },
+          {
+            "authorId": "2617861",
+            "name": "Nicki Holighaus"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "493e91bf9be48ad0e736e636813a357f4912ae26",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2065669933",
+            "name": "M. Faraji"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "6bf262e7a0a37dc0a837789777c5968de5e92661",
+        "authors": [
+          {
+            "authorId": "1809256",
+            "name": "B. Ricaud"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "a0a0617cada540e82e73d128d2d8709bb283308b",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2065669933",
+            "name": "M. Faraji"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "a91fee05f39719e0f4946abcfebe5bfbc031c827",
+        "authors": [
+          {
+            "authorId": "3333045",
+            "name": "D. Thanou"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1703189",
+            "name": "P. Frossard"
+          }
+        ]
+      },
+      {
+        "paperId": "b066a40b1468978556acfd6df02c35b20a3ba52c",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1809256",
+            "name": "B. Ricaud"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "39e223e6b5a6f8727e9f60b8b7c7720dc40a5dbc",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1799060",
+            "name": "S. K. Narang"
+          },
+          {
+            "authorId": "1703189",
+            "name": "P. Frossard"
+          },
+          {
+            "authorId": "145029825",
+            "name": "Antonio Ortega"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "5c5fbd7ff574c4bc7520f0d21e5206f0d6d5d439",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1809256",
+            "name": "B. Ricaud"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "9abb48331a9ae8d50daf34f98f2351339b3ef1cb",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1799060",
+            "name": "S. K. Narang"
+          },
+          {
+            "authorId": "1703189",
+            "name": "P. Frossard"
+          },
+          {
+            "authorId": "145029825",
+            "name": "Antonio Ortega"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "c9179fb2c92dc6b395b28e7c184b4de11845ed13",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          },
+          {
+            "authorId": "145866180",
+            "name": "Owen Q. Wu"
+          }
+        ]
+      },
+      {
+        "paperId": "48ed7390e38f6dc9c7dac3f8d835948c4a3619b0",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          },
+          {
+            "authorId": "1703189",
+            "name": "P. Frossard"
+          }
+        ]
+      },
+      {
+        "paperId": "4a5a12f0ffaad71edd2d77a0fdd134f65d0e90f4",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2065669933",
+            "name": "M. Faraji"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          }
+        ]
+      },
+      {
+        "paperId": "52119336027b9e2e2aed3fc5a9d78db47a15b656",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          }
+        ]
+      },
+      {
+        "paperId": "9035dfe393d9f0dddfbeacf40052c593c87f9fea",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1697397",
+            "name": "P. Vandergheynst"
+          },
+          {
+            "authorId": "1708810",
+            "name": "D. Kressner"
+          },
+          {
+            "authorId": "1703189",
+            "name": "P. Frossard"
+          }
+        ]
+      },
+      {
+        "paperId": "3d6f3acc6e2e203fa8eeb83fd96f8a6b36b67168",
+        "authors": [
+          {
+            "authorId": "144166091",
+            "name": "M. Moghaddam"
+          },
+          {
+            "authorId": "12177126",
+            "name": "X. Wu"
+          },
+          {
+            "authorId": "31318806",
+            "name": "M. Burgin"
+          },
+          {
+            "authorId": "2143699221",
+            "name": "A. Nayyar"
+          },
+          {
+            "authorId": "2107809687",
+            "name": "M. Liu"
+          },
+          {
+            "authorId": "2918181",
+            "name": "D. Teneketzis"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2107513227",
+            "name": "K. Li"
+          },
+          {
+            "authorId": "2257808",
+            "name": "Y. Goykhman"
+          },
+          {
+            "authorId": "73441030",
+            "name": "Q. Wang"
+          },
+          {
+            "authorId": "1729587",
+            "name": "D. Entekhabi"
+          }
+        ]
+      },
+      {
+        "paperId": "84693323d01868f6c4dc3b6a919a8658e78e2c94",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          }
+        ]
+      },
+      {
+        "paperId": "90a85bcf61fb688ecffea7085d4ee7345b13029a",
+        "authors": [
+          {
+            "authorId": "144166091",
+            "name": "M. Moghaddam"
+          },
+          {
+            "authorId": "1729587",
+            "name": "D. Entekhabi"
+          },
+          {
+            "authorId": "2257808",
+            "name": "Y. Goykhman"
+          },
+          {
+            "authorId": "2149141838",
+            "name": "Ke Li"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          },
+          {
+            "authorId": "1811910",
+            "name": "Aditya Mahajan"
+          },
+          {
+            "authorId": "1990526",
+            "name": "A. Nayyar"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2918181",
+            "name": "D. Teneketzis"
+          }
+        ]
+      },
+      {
+        "paperId": "fbd29ca4c76eb42b8c5b7685dd56cf824b2fc8c4",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "1990526",
+            "name": "A. Nayyar"
+          },
+          {
+            "authorId": "1811910",
+            "name": "Aditya Mahajan"
+          },
+          {
+            "authorId": "2257808",
+            "name": "Y. Goykhman"
+          },
+          {
+            "authorId": "2149140822",
+            "name": "Ke Li"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          },
+          {
+            "authorId": "2918181",
+            "name": "D. Teneketzis"
+          },
+          {
+            "authorId": "144166091",
+            "name": "M. Moghaddam"
+          },
+          {
+            "authorId": "1729587",
+            "name": "D. Entekhabi"
+          }
+        ]
+      },
+      {
+        "paperId": "6f2c2c6d96be1e7c8f390dea5cfd71a1040b74e6",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          }
+        ]
+      },
+      {
+        "paperId": "ab268f14b4c18605bcb6a82fedf51ec126f202cb",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          },
+          {
+            "authorId": "145866180",
+            "name": "Owen Q. Wu"
+          }
+        ]
+      },
+      {
+        "paperId": "1597e6876317c9f788168841663fe4ee6429c2ff",
+        "authors": [
+          {
+            "authorId": "144166091",
+            "name": "M. Moghaddam"
+          },
+          {
+            "authorId": "1729587",
+            "name": "D. Entekhabi"
+          },
+          {
+            "authorId": "2257808",
+            "name": "Y. Goykhman"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          },
+          {
+            "authorId": "1811910",
+            "name": "Aditya Mahajan"
+          },
+          {
+            "authorId": "1990526",
+            "name": "A. Nayyar"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "2918181",
+            "name": "D. Teneketzis"
+          }
+        ]
+      },
+      {
+        "paperId": "80a1e1bcb0e5849a1fe6e4edbbc4a63eed45b8b7",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          }
+        ]
+      },
+      {
+        "paperId": "5b049f0e1e25dcf5bd77bb37cc673ce85d5981bd",
+        "authors": [
+          {
+            "authorId": "144166091",
+            "name": "M. Moghaddam"
+          },
+          {
+            "authorId": "1729587",
+            "name": "D. Entekhabi"
+          },
+          {
+            "authorId": "2112387033",
+            "name": "Min Liu"
+          },
+          {
+            "authorId": "104941490",
+            "name": "D. Teneketzid"
+          },
+          {
+            "authorId": "2257808",
+            "name": "Y. Goykhman"
+          },
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "48299006",
+            "name": "A. Mahajan"
+          },
+          {
+            "authorId": "2143699221",
+            "name": "A. Nayyar"
+          }
+        ]
+      },
+      {
+        "paperId": "07551525ed20d6e0739b6e333d528232b6627b90",
+        "authors": [
+          {
+            "authorId": "50058359",
+            "name": "D. Shuman"
+          },
+          {
+            "authorId": "39037167",
+            "name": "M. Liu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "authorId": "134901850",
+    "papers": [
+      {
+        "paperId": "2b462aaec679f6882985c54a27393428a3d53f96",
+        "authors": [
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "659ac5370f8efe541b25ecbdebdadc699a898fe2",
+        "authors": [
+          {
+            "authorId": "2174773480",
+            "name": "Riya Aggarwal"
+          },
+          {
+            "authorId": "2283683517",
+            "name": "Mira Flynn"
+          },
+          {
+            "authorId": "2283683323",
+            "name": "Sam Daitzman"
+          },
+          {
+            "authorId": "2283570783",
+            "name": "Diane Lam"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "7404fedba24140861f2322582024ff59ed4856d6",
+        "authors": [
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "e95892c4c5457591e5604b2cf3e6900b09cdc291",
+        "authors": [
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          },
+          {
+            "authorId": "48041657",
+            "name": "M. Rupp"
+          },
+          {
+            "authorId": "1819658129",
+            "name": "Yoolhee Kim"
+          },
+          {
+            "authorId": "4995443",
+            "name": "Erin Antono"
+          },
+          {
+            "authorId": "2065574647",
+            "name": "Julia Ling"
+          }
+        ]
+      },
+      {
+        "paperId": "1eee2befce65db7f219abd1a699baaad3b6b7ec9",
+        "authors": [
+          {
+            "authorId": "31714606",
+            "name": "Erika Tsutsumi"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          },
+          {
+            "authorId": "2115445760",
+            "name": "Christopher L. Lee"
+          }
+        ]
+      },
+      {
+        "paperId": "659a8026e1dc52c8e6a9d4e375ac51452aae149b",
+        "authors": [
+          {
+            "authorId": "2314873726",
+            "name": "Alex George"
+          },
+          {
+            "authorId": "2314867945",
+            "name": "Leslie Bostwick"
+          },
+          {
+            "authorId": "2376602226",
+            "name": "Audrey Renaud"
+          },
+          {
+            "authorId": "2376768618",
+            "name": "Emily Boyd"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "6f64d743d836f867ddefe95e6b13b80c34427b7d",
+        "authors": [
+          {
+            "authorId": "2314738088",
+            "name": "Emma Fox"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "849c61e06f8202c8997a070e3ca4d24bb89e7429",
+        "authors": [
+          {
+            "authorId": "2314727157",
+            "name": "Esme Abbot"
+          },
+          {
+            "authorId": "2314723975",
+            "name": "Berwin Lan"
+          },
+          {
+            "authorId": "2283363505",
+            "name": "Luke Raus"
+          },
+          {
+            "authorId": "2314719778",
+            "name": "Bill Fan"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "b0c99e2126e16da61791114e8fb963c7744a38f1",
+        "authors": [
+          {
+            "authorId": "2283363505",
+            "name": "Luke Raus"
+          },
+          {
+            "authorId": "2283362042",
+            "name": "Katherine Mackowiak"
+          },
+          {
+            "authorId": "2283363268",
+            "name": "Stephanos Matsumoto"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "c371e710c9ab28b822fa7ccbe9b91b559656cbef",
+        "authors": [
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          },
+          {
+            "authorId": "2377283655",
+            "name": "Jean Huang"
+          },
+          {
+            "authorId": "2317478018",
+            "name": "Caitrin Lynch"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "2377037529",
+            "name": "Paul Ruvolo"
+          },
+          {
+            "authorId": "2126411344",
+            "name": "G. D. Van de Zande"
+          }
+        ]
+      },
+      {
+        "paperId": "c374fab582b6cce5eb155bd402944a7e9cc7f358",
+        "authors": [
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "c9e6e7600223feede04bc9e37ddc7e82ad6d817f",
+        "authors": [
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          },
+          {
+            "authorId": "2314781762",
+            "name": "Jin Ryu"
+          },
+          {
+            "authorId": "2314731060",
+            "name": "Erika Saur"
+          }
+        ]
+      },
+      {
+        "paperId": "f4ee3f568f5d25f7cc088ac029c12c37b88a4963",
+        "authors": [
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      },
+      {
+        "paperId": "feeb9b93e233342ad43e28abbdbf3e9349e744d5",
+        "authors": [
+          {
+            "authorId": "2314867945",
+            "name": "Leslie Bostwick"
+          },
+          {
+            "authorId": "2314873726",
+            "name": "Alex George"
+          },
+          {
+            "authorId": "2314889458",
+            "name": "Trinity Lee"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "authorId": "35474768",
+    "papers": [
+      {
+        "paperId": "52f0e0f64bf80ac2dd079656c89ea954e89bcd8e",
+        "authors": [
+          {
+            "authorId": "2299554118",
+            "name": "Mansi V. Joisher"
+          },
+          {
+            "authorId": "2393798426",
+            "name": "Jiamei Wang"
+          },
+          {
+            "authorId": "2105729912",
+            "name": "Roderick S. Bayliss"
+          },
+          {
+            "authorId": "30771321",
+            "name": "Mike K. Ranjram"
+          },
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "3154185",
+            "name": "A. Jurkov"
+          },
+          {
+            "authorId": "2272247920",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "d5868d4c613ce589649cd5c2399d15d20dc16748",
+        "authors": [
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "2085823000",
+            "name": "Ioannis Nikiforidis"
+          },
+          {
+            "authorId": "1564617359",
+            "name": "Nunzio Pucci"
+          },
+          {
+            "authorId": "2299554118",
+            "name": "Mansi V. Joisher"
+          },
+          {
+            "authorId": "2299555247",
+            "name": "Prateek Wagle"
+          },
+          {
+            "authorId": "3023990",
+            "name": "P. Mitcheson"
+          },
+          {
+            "authorId": "2272247920",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "ed347202ea11084e2b070adc2b51830972088cd9",
+        "authors": [
+          {
+            "authorId": "2299554118",
+            "name": "Mansi V. Joisher"
+          },
+          {
+            "authorId": "2105729912",
+            "name": "Roderick S. Bayliss"
+          },
+          {
+            "authorId": "30771321",
+            "name": "Mike K. Ranjram"
+          },
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "3154185",
+            "name": "A. Jurkov"
+          },
+          {
+            "authorId": "2272247920",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "15ed6cfe85883ccb4b3c2d8922d16489c632c40b",
+        "authors": [
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "1781444511",
+            "name": "Andrew B. Nadler"
+          },
+          {
+            "authorId": "145409804",
+            "name": "C. Sullivan"
+          },
+          {
+            "authorId": "2214108",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "9b14d71e5aee87a9a93c0c42ef3f7acc7d2a9761",
+        "authors": [
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "1781444511",
+            "name": "Andrew B. Nadler"
+          },
+          {
+            "authorId": "145409804",
+            "name": "C. Sullivan"
+          },
+          {
+            "authorId": "2214108",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "301e5da38ce0114b45969ef218dd017599853483",
+        "authors": [
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "1933993",
+            "name": "Alex J. Hanson"
+          },
+          {
+            "authorId": "145409804",
+            "name": "C. Sullivan"
+          },
+          {
+            "authorId": "2214108",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "41d38efea2874dbfc24e9356fb6bc9c576811c82",
+        "authors": [
+          {
+            "authorId": "2105729912",
+            "name": "Roderick S. Bayliss"
+          },
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "1933993",
+            "name": "Alex J. Hanson"
+          },
+          {
+            "authorId": "145409804",
+            "name": "C. Sullivan"
+          },
+          {
+            "authorId": "2214108",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "3e6c7f0101be4292b854720fb2ac617c27a5cf2b",
+        "authors": [
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "1933993",
+            "name": "Alex J. Hanson"
+          },
+          {
+            "authorId": "145409804",
+            "name": "C. Sullivan"
+          },
+          {
+            "authorId": "2214108",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "ce330814323d63b7773de738f8c4230093a08066",
+        "authors": [
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          }
+        ]
+      },
+      {
+        "paperId": "f19346d0ce061e23308ebc41b3489bff98c72347",
+        "authors": [
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "1933993",
+            "name": "Alex J. Hanson"
+          },
+          {
+            "authorId": "35693972",
+            "name": "B. Reese"
+          },
+          {
+            "authorId": "145409804",
+            "name": "C. Sullivan"
+          },
+          {
+            "authorId": "2214108",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "b920b5a455f8a49a8d94856367f5de314190b0b8",
+        "authors": [
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "1933993",
+            "name": "Alex J. Hanson"
+          },
+          {
+            "authorId": "35693972",
+            "name": "B. Reese"
+          },
+          {
+            "authorId": "145409804",
+            "name": "C. Sullivan"
+          },
+          {
+            "authorId": "2214108",
+            "name": "D. Perreault"
+          }
+        ]
+      },
+      {
+        "paperId": "aba9eb742968d36d1886c159f580551546683f95",
+        "authors": [
+          {
+            "authorId": "1933993",
+            "name": "Alex J. Hanson"
+          },
+          {
+            "authorId": "35474768",
+            "name": "Rachel S. Yang"
+          },
+          {
+            "authorId": "2583493",
+            "name": "Seungbum Lim"
+          },
+          {
+            "authorId": "2214108",
+            "name": "D. Perreault"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "authorId": "66274227",
+    "papers": [
+      {
+        "paperId": "1282b158e8f54059490fd1acf535b3df80c7137f",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "3265128",
+            "name": "M. Gennert"
+          }
+        ]
+      },
+      {
+        "paperId": "6a4de7266e6c0f747231cede7609f08bf098bc12",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "6074611",
+            "name": "H. Kimpara"
+          },
+          {
+            "authorId": "145853279",
+            "name": "Zhi Li"
+          },
+          {
+            "authorId": "2353770",
+            "name": "D. Prokhorov"
+          },
+          {
+            "authorId": "3265128",
+            "name": "M. Gennert"
+          }
+        ]
+      },
+      {
+        "paperId": "ea9ba757c48eb746129a66f5f90f1d5e6e08ccb6",
+        "authors": [
+          {
+            "authorId": "2346543272",
+            "name": "Nima Lotfi"
+          },
+          {
+            "authorId": "34139599",
+            "name": "D. Auslander"
+          },
+          {
+            "authorId": "2093265459",
+            "name": "Luis A. Rodriguez"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "34829444",
+            "name": "C. Berry"
+          }
+        ]
+      },
+      {
+        "paperId": "190c26a8bb843cfb7e797d3d8e0ccbf691614021",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "2287047622",
+            "name": "Purvi Shah"
+          },
+          {
+            "authorId": "67230058",
+            "name": "Gbetonmasse B. Somasse"
+          },
+          {
+            "authorId": "2287338209",
+            "name": "Dhvani Gangadia"
+          },
+          {
+            "authorId": "3265128",
+            "name": "M. Gennert"
+          },
+          {
+            "authorId": "31088628",
+            "name": "Walter Towner"
+          },
+          {
+            "authorId": "2287340564",
+            "name": "Torbjorn Bergstrom"
+          }
+        ]
+      },
+      {
+        "paperId": "7851c31ad123b0e60fb10d43a4651dfefda0c075",
+        "authors": [
+          {
+            "authorId": "2346543272",
+            "name": "Nima Lotfi"
+          },
+          {
+            "authorId": "34139599",
+            "name": "D. Auslander"
+          },
+          {
+            "authorId": "2093265459",
+            "name": "Luis A. Rodriguez"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "34829444",
+            "name": "C. Berry"
+          }
+        ]
+      },
+      {
+        "paperId": "c69710a73576c313757df9a54f82155ac6898c68",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "3265128",
+            "name": "M. Gennert"
+          },
+          {
+            "authorId": "145853279",
+            "name": "Zhi Li"
+          }
+        ]
+      },
+      {
+        "paperId": "99f7885bc2f4956c14b187b3366b12d7c8cbecc7",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "34139599",
+            "name": "D. Auslander"
+          },
+          {
+            "authorId": "34829444",
+            "name": "C. Berry"
+          },
+          {
+            "authorId": "2093265459",
+            "name": "Luis A. Rodriguez"
+          },
+          {
+            "authorId": "91315213",
+            "name": "M. Molki"
+          },
+          {
+            "authorId": "3180268",
+            "name": "Nima Lotfi"
+          }
+        ]
+      },
+      {
+        "paperId": "dc371300fc088711fe75a2005962594c72db7a7c",
+        "authors": [
+          {
+            "authorId": "6074611",
+            "name": "H. Kimpara"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "2119313209",
+            "name": "Jie Fu"
+          },
+          {
+            "authorId": "145853279",
+            "name": "Zhi Li"
+          },
+          {
+            "authorId": "2353770",
+            "name": "D. Prokhorov"
+          },
+          {
+            "authorId": "3265128",
+            "name": "M. Gennert"
+          }
+        ]
+      },
+      {
+        "paperId": "df97ce09975e930d0a524173b64f1051ec689665",
+        "authors": [
+          {
+            "authorId": "6074611",
+            "name": "H. Kimpara"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "145853279",
+            "name": "Zhi Li"
+          },
+          {
+            "authorId": "4152905",
+            "name": "K. Troy"
+          },
+          {
+            "authorId": "2353770",
+            "name": "D. Prokhorov"
+          },
+          {
+            "authorId": "3265128",
+            "name": "M. Gennert"
+          }
+        ]
+      },
+      {
+        "paperId": "2112a81f18debc6964672348036b769f8aa7d5b0",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "145853279",
+            "name": "Zhi Li"
+          }
+        ]
+      },
+      {
+        "paperId": "6ef66591758eccefd49c52599a805124fb4456a2",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "6074611",
+            "name": "H. Kimpara"
+          },
+          {
+            "authorId": "51117662",
+            "name": "T. Meier"
+          },
+          {
+            "authorId": "3265128",
+            "name": "M. Gennert"
+          },
+          {
+            "authorId": "145853279",
+            "name": "Zhi Li"
+          }
+        ]
+      },
+      {
+        "paperId": "e9c5074d074cad0e8429265b3a2b676641ffe7a0",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "1961290766",
+            "name": "A. Valiton"
+          },
+          {
+            "authorId": "2098657245",
+            "name": "Renee K. Dorer"
+          },
+          {
+            "authorId": "145853279",
+            "name": "Zhi Li"
+          }
+        ]
+      },
+      {
+        "paperId": "84172040b9d5b3a3c616c789728ea216f0ce61e0",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          }
+        ]
+      },
+      {
+        "paperId": "da4470f414f6622a048c68884331c961e875e1dd",
+        "authors": [
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "6074611",
+            "name": "H. Kimpara"
+          },
+          {
+            "authorId": "2119313209",
+            "name": "Jie Fu"
+          },
+          {
+            "authorId": "145853279",
+            "name": "Zhi Li"
+          }
+        ]
+      },
+      {
+        "paperId": "5281d87d662bee36b141ed4621ac931a90f8c8cf",
+        "authors": [
+          {
+            "authorId": "66479176",
+            "name": "A. Awelewa"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "101257782",
+            "name": "Samuel O Majekodunmi"
+          },
+          {
+            "authorId": "70375367",
+            "name": "I. Odigwe"
+          },
+          {
+            "authorId": "98822522",
+            "name": "A. Agbetuyi"
+          },
+          {
+            "authorId": "81297101",
+            "name": "I. Samuel"
+          }
+        ]
+      },
+      {
+        "paperId": "c274712053d3d859c513d62b22d9aae9283b6250",
+        "authors": [
+          {
+            "authorId": "66479176",
+            "name": "A. Awelewa"
+          },
+          {
+            "authorId": "98822522",
+            "name": "A. Agbetuyi"
+          },
+          {
+            "authorId": "2170422375",
+            "name": "I. Odigwe"
+          },
+          {
+            "authorId": "2299191430",
+            "name": "Isaac A. Samuel"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          }
+        ]
+      },
+      {
+        "paperId": "c371e710c9ab28b822fa7ccbe9b91b559656cbef",
+        "authors": [
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          },
+          {
+            "authorId": "2377283655",
+            "name": "Jean Huang"
+          },
+          {
+            "authorId": "2317478018",
+            "name": "Caitrin Lynch"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "2377037529",
+            "name": "Paul Ruvolo"
+          },
+          {
+            "authorId": "2126411344",
+            "name": "G. D. Van de Zande"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "authorId": "2291589240",
+    "papers": [
+      {
+        "paperId": "af49551a33650a5e544ff01382b236f5db9f633e",
+        "authors": [
+          {
+            "authorId": "2354559",
+            "name": "C. Izu"
+          },
+          {
+            "authorId": "2152271",
+            "name": "C. Mirolo"
+          },
+          {
+            "authorId": "2261312645",
+            "name": "J\u00fcrgen B\u00f6rstler"
+          },
+          {
+            "authorId": "2756139",
+            "name": "H. Connamacher"
+          },
+          {
+            "authorId": "2309490026",
+            "name": "Ryan Crosby"
+          },
+          {
+            "authorId": "2320281",
+            "name": "R. Glassey"
+          },
+          {
+            "authorId": "2286334",
+            "name": "G. Haldeman"
+          },
+          {
+            "authorId": "2139911132",
+            "name": "Olli Kiljunen"
+          },
+          {
+            "authorId": "2278400200",
+            "name": "Amruth N. Kumar"
+          },
+          {
+            "authorId": "2115518680",
+            "name": "David Liu"
+          },
+          {
+            "authorId": "1402104736",
+            "name": "Andrew Luxton-Reilly"
+          },
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          },
+          {
+            "authorId": "2299813105",
+            "name": "Eduardo Carneiro de Oliveira"
+          },
+          {
+            "authorId": "2093196488",
+            "name": "Se\u00e1n Russell"
+          },
+          {
+            "authorId": "2117044508",
+            "name": "Anshul Shah"
+          }
+        ]
+      },
+      {
+        "paperId": "ea1bc3fec90b986a6f5a6509439d8f097e8bd30e",
+        "authors": [
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          },
+          {
+            "authorId": "2240709614",
+            "name": "Julia Williams"
+          }
+        ]
+      },
+      {
+        "paperId": "f9fce5a0538791118a28ab660f6c6b79f89b5b51",
+        "authors": [
+          {
+            "authorId": "145209048",
+            "name": "Mihaela Sabin"
+          },
+          {
+            "authorId": "2278400200",
+            "name": "Amruth N. Kumar"
+          },
+          {
+            "authorId": "2278151669",
+            "name": "Bonnie Mackellar"
+          },
+          {
+            "authorId": "2278151866",
+            "name": "Ren\u00e9e A. McCauley"
+          },
+          {
+            "authorId": "2548487",
+            "name": "T. VanDeGrift"
+          },
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          }
+        ]
+      },
+      {
+        "paperId": "0e34cce5bc54814cbcafb8255c0510c6b4afddf0",
+        "authors": [
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          },
+          {
+            "authorId": "1411435330",
+            "name": "Michelle Jarvie-Eggart"
+          }
+        ]
+      },
+      {
+        "paperId": "77d6bb238c7e821c16035b8b8f5443c7def380d4",
+        "authors": [
+          {
+            "authorId": "2354559",
+            "name": "C. Izu"
+          },
+          {
+            "authorId": "2152271",
+            "name": "C. Mirolo"
+          },
+          {
+            "authorId": "2261312645",
+            "name": "J\u00fcrgen B\u00f6rstler"
+          },
+          {
+            "authorId": "2756139",
+            "name": "H. Connamacher"
+          },
+          {
+            "authorId": "2309490026",
+            "name": "Ryan Crosby"
+          },
+          {
+            "authorId": "2320281",
+            "name": "R. Glassey"
+          },
+          {
+            "authorId": "2286334",
+            "name": "G. Haldeman"
+          },
+          {
+            "authorId": "2139911132",
+            "name": "Olli Kiljunen"
+          },
+          {
+            "authorId": "2278400200",
+            "name": "Amruth N. Kumar"
+          },
+          {
+            "authorId": "2115518680",
+            "name": "David Liu"
+          },
+          {
+            "authorId": "1402104736",
+            "name": "Andrew Luxton-Reilly"
+          },
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          },
+          {
+            "authorId": "2299813105",
+            "name": "Eduardo Carneiro de Oliveira"
+          },
+          {
+            "authorId": "2093196488",
+            "name": "Se\u00e1n Russell"
+          },
+          {
+            "authorId": "2117044508",
+            "name": "Anshul Shah"
+          }
+        ]
+      },
+      {
+        "paperId": "b1f621ba15d863f9d5acfb5f259d6c26f8cccd77",
+        "authors": [
+          {
+            "authorId": "2296534891",
+            "name": "Zachary Dodds"
+          },
+          {
+            "authorId": "2155664998",
+            "name": "Yuan Garcia"
+          },
+          {
+            "authorId": "2051971606",
+            "name": "Vidushi Ojha"
+          },
+          {
+            "authorId": "1829670",
+            "name": "M. Guzdial"
+          },
+          {
+            "authorId": "2135855228",
+            "name": "Tamara Nelson-Fromm"
+          },
+          {
+            "authorId": "2291587663",
+            "name": "Valerie Barr"
+          },
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          }
+        ]
+      },
+      {
+        "paperId": "c371e710c9ab28b822fa7ccbe9b91b559656cbef",
+        "authors": [
+          {
+            "authorId": "2291589240",
+            "name": "Stephanos Matsumoto"
+          },
+          {
+            "authorId": "134901850",
+            "name": "Zachary del Rosario"
+          },
+          {
+            "authorId": "2377283655",
+            "name": "Jean Huang"
+          },
+          {
+            "authorId": "2317478018",
+            "name": "Caitrin Lynch"
+          },
+          {
+            "authorId": "66274227",
+            "name": "Kenechukwu C. Mbanisi"
+          },
+          {
+            "authorId": "2377037529",
+            "name": "Paul Ruvolo"
+          },
+          {
+            "authorId": "2126411344",
+            "name": "G. D. Van de Zande"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "authorId": "5226037",
+    "papers": [
+      {
+        "paperId": "2608b6bd490b125b6eee019d677b42d1d12edaef",
+        "authors": [
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "2338383925",
+            "name": "Sean M. Tobyne"
+          },
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          }
+        ]
+      },
+      {
+        "paperId": "4f3ec4650fe25c858a2cb6fb0373ce9a73d99c83",
+        "authors": [
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          }
+        ]
+      },
+      {
+        "paperId": "d4b6a146a55c9f1eaf7760fdba5b0b239993e911",
+        "authors": [
+          {
+            "authorId": "2179632262",
+            "name": "E. Schlafly"
+          },
+          {
+            "authorId": "10745571",
+            "name": "Anthea Cheung"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "144448747",
+            "name": "P. Lipton"
+          },
+          {
+            "authorId": "2126683975",
+            "name": "Caroline Moore Kochlacs"
+          },
+          {
+            "authorId": "2683236",
+            "name": "J. Bohland"
+          },
+          {
+            "authorId": "39363401",
+            "name": "U. Eden"
+          },
+          {
+            "authorId": "1758350",
+            "name": "M. Kramer"
+          }
+        ]
+      },
+      {
+        "paperId": "6268a6045b797ed9f92cc7987970f6c98642ab80",
+        "authors": [
+          {
+            "authorId": "2338383925",
+            "name": "Sean M. Tobyne"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          },
+          {
+            "authorId": "4964474",
+            "name": "James A. Brissenden"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "2195089",
+            "name": "David E. Osher"
+          }
+        ]
+      },
+      {
+        "paperId": "bbd9ff065df4e57a59b21f02c37511e2295d8fc8",
+        "authors": [
+          {
+            "authorId": "21090505",
+            "name": "S. Govindasamy"
+          },
+          {
+            "authorId": "39488823",
+            "name": "R. Christianson"
+          },
+          {
+            "authorId": "120376038",
+            "name": "J. Geddes"
+          },
+          {
+            "authorId": "2115447166",
+            "name": "Christopher Lee"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "12114845",
+            "name": "P. Ruvolo"
+          },
+          {
+            "authorId": "70438402",
+            "name": "M. Somerville"
+          },
+          {
+            "authorId": "2351807",
+            "name": "A. Strong"
+          }
+        ]
+      },
+      {
+        "paperId": "e99f914290e89fbc3f67e58bd0d6211fd3ba77a3",
+        "authors": [
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "2338383925",
+            "name": "Sean M. Tobyne"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "2f69f9ccd7961c72da2c9e9421b9f12e54aab449",
+        "authors": [
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "5923773",
+            "name": "Nishmar Cestero"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "61721578ffe2b9df15bb708d9eca8d789dd7e5af",
+        "authors": [
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "2338383925",
+            "name": "Sean M. Tobyne"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "2195089",
+            "name": "David E. Osher"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "9c1733e3bc2e9360fb36894b986ae84227a52ead",
+        "authors": [
+          {
+            "authorId": "144336276",
+            "name": "F. Martin"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "2631483",
+            "name": "Harry Zhu"
+          },
+          {
+            "authorId": "9579181",
+            "name": "Jere Boudelle"
+          }
+        ]
+      },
+      {
+        "paperId": "c31041068216274c1c3062bb2a064a9cd015c406",
+        "authors": [
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "5923773",
+            "name": "Nishmar Cestero"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "51071558",
+            "name": "J. Mohl"
+          },
+          {
+            "authorId": "2128056",
+            "name": "S. Tokdar"
+          },
+          {
+            "authorId": "2756499",
+            "name": "J. Groh"
+          }
+        ]
+      },
+      {
+        "paperId": "cff890da30dc9ede0b252fec7ebdf109a83b0f8d",
+        "authors": [
+          {
+            "authorId": "2338383925",
+            "name": "Sean M. Tobyne"
+          },
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "2195089",
+            "name": "David E. Osher"
+          },
+          {
+            "authorId": "4964474",
+            "name": "James A. Brissenden"
+          },
+          {
+            "authorId": "50627336",
+            "name": "Emily J. Levin"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "e0f986c0f7664b00ba5251aa6f1156b5c455ff2d",
+        "authors": [
+          {
+            "authorId": "2338383925",
+            "name": "Sean M. Tobyne"
+          },
+          {
+            "authorId": "2195089",
+            "name": "David E. Osher"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "fcce069351529ef72f9fbecbb60ddb8ff8727038",
+        "authors": [
+          {
+            "authorId": "2195089",
+            "name": "David E. Osher"
+          },
+          {
+            "authorId": "2338383925",
+            "name": "Sean M. Tobyne"
+          },
+          {
+            "authorId": "4964474",
+            "name": "James A. Brissenden"
+          },
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "50627336",
+            "name": "Emily J. Levin"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "2a74f303a11d85b490764243ef79b402d699f130",
+        "authors": [
+          {
+            "authorId": "32609875",
+            "name": "M. Rosen"
+          },
+          {
+            "authorId": "33330716",
+            "name": "C. Stern"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "34200366",
+            "name": "Kathryn J. Devaney"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "2c6d85d4ef2013951257bdcd9d66d54d61014c6e",
+        "authors": [
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "2681661",
+            "name": "James M. Dalphond"
+          },
+          {
+            "authorId": "144336276",
+            "name": "F. Martin"
+          }
+        ]
+      },
+      {
+        "paperId": "713f8e2c7f1c98327f9fa6bf8495d96658207c4e",
+        "authors": [
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "5923773",
+            "name": "Nishmar Cestero"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "3cb2fa615fef8901a9863a18679ae4b31164565d",
+        "authors": [
+          {
+            "authorId": "32609875",
+            "name": "M. Rosen"
+          },
+          {
+            "authorId": "33330716",
+            "name": "C. Stern"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "34200366",
+            "name": "Kathryn J. Devaney"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "74b09a4e92bf366607a40130e9cb3e8b21692a06",
+        "authors": [
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "3948270",
+            "name": "Abigail L. Noyce"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "880c5fdf21a7f04e911f931485bf674e78038321",
+        "authors": [
+          {
+            "authorId": "2195089",
+            "name": "David E. Osher"
+          },
+          {
+            "authorId": "2338383925",
+            "name": "Sean M. Tobyne"
+          },
+          {
+            "authorId": "5449872",
+            "name": "Keith Congden"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "9e8841dac713562822841cae3ce122bb05574271",
+        "authors": [
+          {
+            "authorId": "2057029",
+            "name": "M. Raichle"
+          },
+          {
+            "authorId": "1761695",
+            "name": "R. Buckner"
+          },
+          {
+            "authorId": "34650090",
+            "name": "Justin L. Vincent"
+          },
+          {
+            "authorId": "143908863",
+            "name": "A. Snyder"
+          },
+          {
+            "authorId": "31468082",
+            "name": "M. Fox"
+          },
+          {
+            "authorId": "1933944",
+            "name": "Benjamin J. Shannon"
+          },
+          {
+            "authorId": "1704211",
+            "name": "J. Kragel"
+          },
+          {
+            "authorId": "2872825",
+            "name": "Sean M. Polyn"
+          },
+          {
+            "authorId": "2132976",
+            "name": "S. Ding"
+          },
+          {
+            "authorId": "1769416",
+            "name": "B. Dickerson"
+          },
+          {
+            "authorId": "48845233",
+            "name": "B. Pascual"
+          },
+          {
+            "authorId": "145054367",
+            "name": "J. Masdeu"
+          },
+          {
+            "authorId": "33556992",
+            "name": "Mark Hollenbeck"
+          },
+          {
+            "authorId": "1796886",
+            "name": "N. Makris"
+          },
+          {
+            "authorId": "2241592",
+            "name": "R. Insausti"
+          },
+          {
+            "authorId": "32609875",
+            "name": "M. Rosen"
+          },
+          {
+            "authorId": "33330716",
+            "name": "C. Stern"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "34200366",
+            "name": "Kathryn J. Devaney"
+          },
+          {
+            "authorId": "49445739",
+            "name": "C. David"
+          }
+        ]
+      },
+      {
+        "paperId": "adb95ee926cf58878bf523af978f59d7b833dbfa",
+        "authors": [
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "47648412",
+            "name": "Lingqiang Kong"
+          },
+          {
+            "authorId": "32609875",
+            "name": "M. Rosen"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "dc2b8e28ef277e0a7ad96b1d153dd9869e4906a6",
+        "authors": [
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "32609875",
+            "name": "M. Rosen"
+          },
+          {
+            "authorId": "47648412",
+            "name": "Lingqiang Kong"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "efaf42cc1fb290a8a8b36c89df2de27e9fb295e5",
+        "authors": [
+          {
+            "authorId": "34200366",
+            "name": "Kathryn J. Devaney"
+          },
+          {
+            "authorId": "50627336",
+            "name": "Emily J. Levin"
+          },
+          {
+            "authorId": "32609875",
+            "name": "M. Rosen"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "920b5521eb676c760b24577b08cd6da9e560c59c",
+        "authors": [
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          }
+        ]
+      },
+      {
+        "paperId": "cbac6af0be800c985de219eb2b0304a6aba6b6c5",
+        "authors": [
+          {
+            "authorId": "47648412",
+            "name": "Lingqiang Kong"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "32609875",
+            "name": "M. Rosen"
+          },
+          {
+            "authorId": "3805874",
+            "name": "S. Sheremata"
+          },
+          {
+            "authorId": "3409384",
+            "name": "Jascha D. Swisher"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "533aca2b4e18fbb53f3b50b5f15126e497e91f66",
+        "authors": [
+          {
+            "authorId": "2308605",
+            "name": "K. Bettencourt"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "4427718",
+            "name": "D. Somers"
+          }
+        ]
+      },
+      {
+        "paperId": "8fa2d29502175d24abbcf9c7e85eb1af51647827",
+        "authors": [
+          {
+            "authorId": "133572111",
+            "name": "Alvaro Caceda"
+          },
+          {
+            "authorId": "50170912",
+            "name": "E. Anesta"
+          },
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          }
+        ]
+      },
+      {
+        "paperId": "4bc0fc2515b843eeb9f7ffe81bf025574168e5e6",
+        "authors": [
+          {
+            "authorId": "5226037",
+            "name": "Samantha W. Michalka"
+          },
+          {
+            "authorId": "2284938570",
+            "name": "Maya L. Rosen"
+          },
+          {
+            "authorId": "47648412",
+            "name": "Lingqiang Kong"
+          },
+          {
+            "authorId": "1398012295",
+            "name": "B. Shinn-Cunningham"
+          },
+          {
+            "authorId": "2284943485",
+            "name": "David C. Somers"
+          }
+        ]
+      }
+    ]
+  }
+]
