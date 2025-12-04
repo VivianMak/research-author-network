@@ -3,9 +3,39 @@ import numpy as np
 import heapq
 from math import sqrt
 import matplotlib.pyplot as plt
+import networkx as nx
 
 
-def create_node(
+def get_researchers(paper_id):
+    """
+    Get researchers for a single paper.
+
+    Returns a list.
+    """
+
+
+def create_single_network(*researchers):
+    """
+    Create a complete graph for a single research paper using networkx.
+
+    Args:
+    researcher: names of the researchers that have worked together on one research paper.
+    """
+    # Create complete graph for a single research paper
+    network = nx.complete_graph(researchers)
+    return network
+
+
+def create_full_network(*networks):
+    """
+    Take all individual networks and combine them
+
+    Returns full network.
+    """
+    # combine all networks using compose()
+
+
+def create_edge(
     position: Tuple[int, int],
     g: float = float("inf"),
     h: float = 0.0,
