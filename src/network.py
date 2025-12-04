@@ -30,39 +30,42 @@ class NetworkGraph:
         """
         
         # Check if node already exists
-        if author_id in self.node_list:
+        if self.node_lookup(author_id):
             self.edit_node(author_name,
-                            author_id,
-                            collab_edges,
-                            citation_count,
-                            paper_count)
+                           author_id,
+                           collab_edges)
             
 
         new_node = Node(
             author_name=author_name, 
             author_id=author_id, 
-            collab_edges=collab_edges,
-            citation_count=citation_count,
-            paper_count=paper_count)
+            collab_edges=collab_edges)
         
         self.node_list.append(new_node)
 
     def edit_node(self, author_name,
                         author_id,
-                        collab_edges,
-                        citation_count,
-                        paper_count):
+                        collab_edges):
         """"""
         pass
 
-    def node_lookup(self):
+    def node_lookup(self, author_id):
         """Turn node list into a dictionary for quick key lookup."""
 
          # Create a dictionary for quick lookups
-        data_dict = {item.key: item for item in self.node_list}
+         idx, node = next(((i,node) for i,node in self.node_list if node.author_id == author_id), None)
 
-    def add_edge(self):
-        pass
+        return idx, node
+
+
+
+    def add_edge(self, node:Node):
+        """Update the edges of an author."""
+
+        # Check if collaboration already exists
+        if node not in self.collab_edges:
+            node.collab_edges.append(node)
+
 
     def calculate_weight(self):
         """Calculate the collaborations to populate the collaboration edges of a node with author_id and num_of_collabs."""
