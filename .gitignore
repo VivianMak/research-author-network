@@ -13,3 +13,4 @@ venv.bak/
 
 lib/
 tests/
+__pycache__/
