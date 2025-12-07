@@ -81,3 +81,26 @@ class NetworkGraph:
         df = pd.DataFrame(self.collabs_mat, columns=self.author_ids, index=self.author_ids)
         print(df)
 
+    def get_neighbors(self, author_id):
+        """Get the collaborators/neighbors of a single author.
+        
+        Args:
+            author_id: (string) the id of corresponding author.
+
+        Return:
+            edges: [(string, int)] a list of collaborated authors and the number of collaborations
+        """
+        edges = []
+
+        idx = self.author_ids.index(author_id)
+
+        # Loop through row of author
+        for name, n in zip(self.author_ids, self.collabs_mat[idx]):
+            if n != 0:
+                edges.append((name, n))
+
+        return edges
+
+
+
+

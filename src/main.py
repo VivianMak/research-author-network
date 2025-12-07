@@ -13,6 +13,9 @@ def main():
 
     graph.get_collabs()
 
+    edges = graph.get_neighbors("bm")
+    print(f"the neighbors of bm are {edges}")
+
 
 
 if __name__=="__main__":
