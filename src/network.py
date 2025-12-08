@@ -1,6 +1,7 @@
 from typing import List
 import pandas as pd
 
+
 class NetworkGraph:
     """Create a network"""
 
@@ -15,11 +16,12 @@ class NetworkGraph:
 
         self.collabs_mat = []
 
+        self.edges = []
 
     def add_new_author(self, author_id):
         """
         Create a new row/col for an author and populate collaborations
-        
+
         Args:
             author_id: (string) the id of corresponding author
         """
@@ -30,9 +32,9 @@ class NetworkGraph:
         n = len(self.author_ids)
 
         # Populate row and col with zeros
-        self.collabs_mat.append([0]*(n))
+        self.collabs_mat.append([0] * (n))
 
-        for i in range(n-1):
+        for i in range(n - 1):
             self.collabs_mat[i].append(0)
 
     def add_author_collab(self, author_id, collabs):
@@ -53,13 +55,12 @@ class NetworkGraph:
                 # New author is known at last index
                 self.collabs_mat[idx][-1] += 1
                 self.collabs_mat[-1][idx] += 1
-                
+
             else:
                 # Find seen author index
                 i = self.author_ids.index(c)
                 self.collabs_mat[idx][i] += 1
                 self.collabs_mat[i][idx] += 1
-
 
     def check_author(self, author_id) -> bool:
         """Check if author exists.
@@ -78,28 +79,31 @@ class NetworkGraph:
 
         print("Showing final collboration adjacency matrix...")
 
-        df = pd.DataFrame(self.collabs_mat, columns=self.author_ids, index=self.author_ids)
+        df = pd.DataFrame(
+            self.collabs_mat, columns=self.author_ids, index=self.author_ids
+        )
         print(df)
+        return df
 
     def get_neighbors(self, author_id):
         """Get the collaborators/neighbors of a single author.
-        
+
         Args:
             author_id: (string) the id of corresponding author.
 
         Return:
             edges: [(string, int)] a list of collaborated authors and the number of collaborations
         """
-        edges = []
+        self.edges = []
 
         idx = self.author_ids.index(author_id)
 
         # Loop through row of author
         for name, n in zip(self.author_ids, self.collabs_mat[idx]):
             if n != 0:
-                edges.append((name, n))
+                self.edges.append((name, n))
 
-        return edges
+        return self.edges
     
 
     # Functions for the BK clique finding algorithm    
@@ -123,9 +127,3 @@ class NetworkGraph:
                 edges.append(name)
 
         return edges
-
-    # def bk_get_author_ids(self):
-    #     return self.author_ids
-
-
-

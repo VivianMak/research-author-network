@@ -1,51 +1,20 @@
 from typing import List, Tuple, Dict, Set
 import numpy as np
 import heapq
-from math import sqrt
 import matplotlib.pyplot as plt
 import networkx as nx
+from network import NetworkGraph
+from typing import List, Dict, Tuple
 
 
-def get_researchers(paper_id):
-    """
-    Get researchers for a single paper.
-
-    Returns a list.
-    """
-
-
-def create_single_network(*researchers):
-    """
-    Create a complete graph for a single research paper using networkx.
-
-    Args:
-    researcher: names of the researchers that have worked together on one research paper.
-    """
-    # Create complete graph for a single research paper
-    network = nx.complete_graph(researchers)
-    return network
-
-
-def create_full_network(*networks):
-    """
-    Take all individual networks and combine them
-
-    Returns full network.
-    """
-    # combine all networks using compose()
-
-
-def create_edge(
-    position: Tuple[int, int],
-    g: float = float("inf"),
-    h: float = 0.0,
-    parent: Dict = None,
-) -> Dict:
+def create_node(
+    current_author: str, g: float = float("inf"), h: float = 0.0, parent: Dict = None
+):
     """
     Create a node for the A* algorithm.
 
     Args:
-        position: (x, y) coordinates of the node
+        author_id: identity of node
         g: Cost from start to this node (default: infinity)
         h: Estimated cost from this node to goal (default: 0)
         parent: Parent node (default: None)
@@ -53,147 +22,99 @@ def create_edge(
     Returns:
         Dictionary containing node information
     """
-    return {"position": position, "g": g, "h": h, "f": g + h, "parent": parent}
+    return {"author": current_author, "g": g, "h": h, "f": g + h, "parent": parent}
 
 
-def calculate_heuristic(pos1: Tuple[int, int], pos2: Tuple[int, int]) -> float:
+def calculate_heuristic(current_author: str, goal_author: str, graph: NetworkGraph):
     """
-    Calculate the estimated distance between two points using Euclidean distance.
+    Calculate the estimated distance (weighted) between the two authors.
     """
-    x1, y1 = pos1
-    x2, y2 = pos2
-    return sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+    edges = graph.get_neighbors(current_author)
+    neighbor_ids = [name for name, _ in edges]  # edges is [(neighbor, weight), ...]
+    if goal_author in neighbor_ids:
+        heuristic = 1
+    else:
+        heuristic = 2
+    return heuristic
 
 
-def get_valid_neighbors(
-    grid: np.ndarray, position: Tuple[int, int]
-) -> List[Tuple[int, int]]:
-    """
-    Get all valid neighboring positions in the grid.
+def find_valid_neighbors(current_author: str, parent_author: str, graph: NetworkGraph):
+    # from current author, find all neighbors.
+    edges = graph.get_neighbors(current_author)
 
-    Args:
-        grid: 2D numpy array where 0 represents walkable cells and 1 represents obstacles
-        position: Current position (x, y)
-
-    Returns:
-        List of valid neighboring positions
-    """
-    x, y = position
-    rows, cols = grid.shape
-
-    # All possible moves (including diagonals)
-    possible_moves = [
-        (x + 1, y),
-        (x - 1, y),  # Right, Left
-        (x, y + 1),
-        (x, y - 1),  # Up, Down
-        (x + 1, y + 1),
-        (x - 1, y - 1),  # Diagonal moves
-        (x + 1, y - 1),
-        (x - 1, y + 1),
-    ]
-
-    return [
-        (nx, ny)
-        for nx, ny in possible_moves
-        if 0 <= nx < rows
-        and 0 <= ny < cols  # Within grid bounds
-        and grid[nx, ny] == 0  # Not an obstacle
-    ]
+    # If a neighbor matches a parent author, remove from list
+    neighbors = [(n, w) for n, w in edges if n != parent_author]
+    return neighbors
 
 
-def reconstruct_path(goal_node: Dict) -> List[Tuple[int, int]]:
+def reconstruct_path(goal_node: Dict) -> List[str]:
     """
     Reconstruct the path from goal to start by following parent pointers.
+    Returns a list of author IDs from start to goal.
     """
     path = []
     current = goal_node
 
     while current is not None:
-        path.append(current["position"])
+        path.append(current["author"])
         current = current["parent"]
 
     return path[::-1]  # Reverse to get path from start to goal
 
 
-def find_path(
-    grid: np.ndarray, start: Tuple[int, int], goal: Tuple[int, int]
-) -> List[Tuple[int, int]]:
+def find_path(start_author: str, goal_author: str, graph: NetworkGraph) -> List[str]:
     """
-    Find the optimal path using A* algorithm.
-
-    Args:
-        grid: 2D numpy array (0 = free space, 1 = obstacle)
-        start: Starting position (x, y)
-        goal: Goal position (x, y)
-
-    Returns:
-        List of positions representing the optimal path
+    Find the optimal path from start_author to goal_author using A* algorithm.
+    Takes into account edge weights from the collaboration matrix.
     """
+
     # Initialize start node
-    start_node = create_node(position=start, g=0, h=calculate_heuristic(start, goal))
+    start_node = create_node(
+        current_author=start_author,
+        g=0,
+        h=calculate_heuristic(start_author, goal_author, graph),
+        parent=None,
+    )
 
-    # Initialize open and closed sets
-    open_list = [(start_node["f"], start)]  # Priority queue
-    open_dict = {start: start_node}  # For quick node lookup
-    closed_set = set()  # Explored nodes
+    # Priority queue (min-heap) ordered by f = g + h
+    open_list = [(start_node["f"], start_author)]
+    open_dict = {start_author: start_node}
+    closed_set = set()
 
     while open_list:
-        # Get node with lowest f value
-        _, current_pos = heapq.heappop(open_list)
-        current_node = open_dict[current_pos]
+        # Pop node with lowest f
+        _, current_author = heapq.heappop(open_list)
+        current_node = open_dict[current_author]
 
-        # Check if we've reached the goal
-        if current_pos == goal:
+        # Goal check
+        if current_author == goal_author:
             return reconstruct_path(current_node)
 
-        closed_set.add(current_pos)
+        closed_set.add(current_author)
 
-        # Explore neighbors
-        for neighbor_pos in get_valid_neighbors(grid, current_pos):
-            # Skip if already explored
-            if neighbor_pos in closed_set:
+        # Explore neighbors (with weights)
+        neighbors = graph.get_neighbors(
+            current_author
+        )  # returns [(neighbor, weight), ...]
+        for neighbor_author, weight in neighbors:
+            if neighbor_author in closed_set:
                 continue
 
-            # Calculate new path cost
-            tentative_g = current_node["g"] + calculate_heuristic(
-                current_pos, neighbor_pos
-            )
+            tentative_g = current_node["g"] + weight
 
-            # Create or update neighbor
-            if neighbor_pos not in open_dict:
-                neighbor = create_node(
-                    position=neighbor_pos,
+            if neighbor_author not in open_dict:
+                neighbor_node = create_node(
+                    current_author=neighbor_author,
                     g=tentative_g,
-                    h=calculate_heuristic(neighbor_pos, goal),
+                    h=calculate_heuristic(neighbor_author, goal_author, graph),
                     parent=current_node,
                 )
-                heapq.heappush(open_list, (neighbor["f"], neighbor_pos))
-                open_dict[neighbor_pos] = neighbor
-            elif tentative_g < open_dict[neighbor_pos]["g"]:
-                # Found a better path to the neighbor
-                neighbor = open_dict[neighbor_pos]
-                neighbor["g"] = tentative_g
-                neighbor["f"] = tentative_g + neighbor["h"]
-                neighbor["parent"] = current_node
-
-    return []  # No path found
-
-
-def visualize_path(grid: np.ndarray, path: List[Tuple[int, int]]):
-    """
-    Visualize the grid and found path.
-    """
-    plt.figure(figsize=(10, 10))
-    plt.imshow(grid, cmap="binary")
-
-    if path:
-        path = np.array(path)
-        plt.plot(path[:, 1], path[:, 0], "b-", linewidth=3, label="Path")
-        plt.plot(path[0, 1], path[0, 0], "go", markersize=15, label="Start")
-        plt.plot(path[-1, 1], path[-1, 0], "ro", markersize=15, label="Goal")
-
-    plt.grid(True)
-    plt.legend(fontsize=12)
-    plt.title("A* Pathfinding Result")
-    plt.show()
+                open_dict[neighbor_author] = neighbor_node
+                heapq.heappush(open_list, (neighbor_node["f"], neighbor_author))
+            elif tentative_g < open_dict[neighbor_author]["g"]:
+                # Found a better path
+                neighbor_node = open_dict[neighbor_author]
+                neighbor_node["g"] = tentative_g
+                neighbor_node["f"] = tentative_g + neighbor_node["h"]
+                neighbor_node["parent"] = current_node
+                return []  # No path found
