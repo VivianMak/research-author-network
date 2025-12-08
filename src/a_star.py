@@ -1,10 +1,11 @@
-from typing import List, Tuple, Dict, Set
-import numpy as np
+"""
+Implementation of A* Path-Finding algorithm with a heuristic based on edge weights.
+    Loosely modeled off of DataCamp A* Algorithm.
+"""
+
+from typing import List, Dict
 import heapq
-import matplotlib.pyplot as plt
-import networkx as nx
 from network import NetworkGraph
-from typing import List, Dict, Tuple
 
 
 def create_node(
@@ -14,23 +15,34 @@ def create_node(
     Create a node for the A* algorithm.
 
     Args:
-        author_id: identity of node
-        g: Cost from start to this node (default: infinity)
-        h: Estimated cost from this node to goal (default: 0)
-        parent: Parent node (default: None)
+        current_author: string representing identity of current node.
+        g: float representing cost from start to this node (default: infinity).
+        h: float representing estimated cost from this node to goal (default: 0).
+        parent: dict mapping all current_authors so far to their parent node (default: None).
 
     Returns:
-        Dictionary containing node information
+        A dictionary containing node information for the current node.
     """
     return {"author": current_author, "g": g, "h": h, "f": g + h, "parent": parent}
 
 
 def calculate_heuristic(current_author: str, goal_author: str, graph: NetworkGraph):
     """
-    Calculate the estimated distance (weighted) between the two authors.
+    Calculate the estimated weighted distance between the two authors.
+
+    Args:
+        current_author: string representing identity of current node.
+        goal_author: string representing the identity of the goal node.
+        graph: a graph object representing the author network.
+
+    Returns:
+        An int representing the heuristic from the current author to the goal_author.
     """
+    # Get neighbors
     edges = graph.get_neighbors(current_author)
-    neighbor_ids = [name for name, _ in edges]  # edges is [(neighbor, weight), ...]
+    neighbor_ids = [name for name, _ in edges]
+
+    # If goal_author is a neighbor, h=1
     if goal_author in neighbor_ids:
         heuristic = 1
     else:
@@ -39,7 +51,19 @@ def calculate_heuristic(current_author: str, goal_author: str, graph: NetworkGra
 
 
 def find_valid_neighbors(current_author: str, parent_author: str, graph: NetworkGraph):
-    # from current author, find all neighbors.
+    """
+    Find the valid neighbors that we can go to next in the path finding algorithm.
+        Removes the parent node as a possible step.
+
+    Args:
+        current_author: string representing identity of current node.
+        parent_author: string representing identity of the previous node.
+        graph: a graph object representing the author network.
+
+    Returns:
+        A list of valid neighbors.
+    """
+    # From current author, find all neighbors
     edges = graph.get_neighbors(current_author)
 
     # If a neighbor matches a parent author, remove from list
@@ -50,7 +74,13 @@ def find_valid_neighbors(current_author: str, parent_author: str, graph: Network
 def reconstruct_path(goal_node: Dict) -> List[str]:
     """
     Reconstruct the path from goal to start by following parent pointers.
-    Returns a list of author IDs from start to goal.
+
+    Args:
+        goal_node: a dict containing information on the identity of the goal node
+            and parent nodes.
+
+    Returns:
+        A list of author IDs from start to goal.
     """
     path = []
     current = goal_node
@@ -65,7 +95,15 @@ def reconstruct_path(goal_node: Dict) -> List[str]:
 def find_path(start_author: str, goal_author: str, graph: NetworkGraph) -> List[str]:
     """
     Find the optimal path from start_author to goal_author using A* algorithm.
-    Takes into account edge weights from the collaboration matrix.
+        Takes into account edge weights from the collaboration matrix.
+
+    Args:
+        start_author: string representing identity of current node.
+        goal_author: string representing identity of goal node.
+        graph: a graph object representing the author network.
+
+    Returns:
+        A list of the path from the start author to the goal author.
     """
 
     # Initialize start node
@@ -117,4 +155,4 @@ def find_path(start_author: str, goal_author: str, graph: NetworkGraph) -> List[
                 neighbor_node["g"] = tentative_g
                 neighbor_node["f"] = tentative_g + neighbor_node["h"]
                 neighbor_node["parent"] = current_node
-                return []  # No path found
+                return "No Path Found"  # No path found
