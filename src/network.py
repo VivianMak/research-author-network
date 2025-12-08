@@ -100,7 +100,32 @@ class NetworkGraph:
                 edges.append((name, n))
 
         return edges
+    
 
+    # Functions for the BK clique finding algorithm    
+
+    def bk_get_neighbors(self, author_id):
+        """Get the collaborators/neighbors of a single author.
+        
+        Args:
+            author_id: (string) the id of corresponding author.
+
+        Return:
+            edges: [string] a list of collaborated authors 
+        """
+        edges = []
+
+        idx = self.author_ids.index(author_id)
+
+        # Loop through row of author
+        for name, n in zip(self.author_ids, self.collabs_mat[idx]):
+            if n != 0:
+                edges.append(name)
+
+        return edges
+
+    # def bk_get_author_ids(self):
+    #     return self.author_ids
 
 
 
