@@ -1,43 +1,15 @@
 {
     "ids":
         [
-            {
-                "authorId": "5201322",
-                "name": "Sarah Spence Adams"
-            },
-            {
-                "authorId": "1769552",
-                "name": "Brad Minch"
-            },
-            {
-                "authorId": "2002806",
-                "name": "Victoria Preston"
-            },
-            {
-                "authorId": "50058359",
-                "name": "David Shuman"
-            },
-            {
-                "authorId": "134901850",
-                "name": "Zachary del Rosario"
-            },
-            {
-                "authorId": "35474768",
-                "name": "Rachel S. Yang"
-            },
-            {
-                "authorId": "66274227",
-                "name": "Kenechukwu C. Mbanisi"
-            },
-            {
-                "authorId": "2291589240",
-                "name": "Stephanos Matsumoto"
-            },
-            {
-                "authorId": "5226037",
-                "name": "Samantha W. Michalka"
-            }
-
+            "5201322",
+            "1769552",
+            "2002806",
+            "50058359",
+            "134901850",
+            "35474768",
+            "66274227",
+            "2291589240",
+            "5226037"
         ]
 }
 
