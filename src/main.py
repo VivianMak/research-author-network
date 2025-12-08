@@ -3,6 +3,7 @@ import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
 import visualization
+import a_star
 
 
 def main():
@@ -30,7 +31,12 @@ def main():
     mapping = {i: name for i, name in enumerate(graph.author_ids)}
     G = nx.relabel_nodes(G, mapping)
 
+    # Network graph
     visualization.visualize(G)
+
+    # shortest path
+    path = a_star.find_path("vp", "rw", graph)
+    print("Shortest path:", path)
 
 
 if __name__ == "__main__":
