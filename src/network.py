@@ -16,8 +16,6 @@ class NetworkGraph:
 
         self.collabs_mat = []
 
-        self.edges = []
-
     def add_new_author(self, author_id):
         """
         Create a new row/col for an author and populate collaborations
@@ -94,16 +92,16 @@ class NetworkGraph:
         Return:
             edges: [(string, int)] a list of collaborated authors and the number of collaborations
         """
-        self.edges = []
+        edges = []
 
         idx = self.author_ids.index(author_id)
 
         # Loop through row of author
         for name, n in zip(self.author_ids, self.collabs_mat[idx]):
             if n != 0:
-                self.edges.append((name, n))
+                edges.append((name, n))
 
-        return self.edges
+        return edges
     
 
     # Functions for the BK clique finding algorithm    
