@@ -102,7 +102,15 @@ class NetworkGraph:
                 edges.append((name, n))
 
         return edges
-    
+
+    def save_matrix_as_csv(self, csv_name):
+        """Save adjacency matrix as csv"""
+
+        print("Saving matrix...")
+
+        df = self.get_collabs()
+        df.to_csv(f"{csv_name}.csv")
+        return df
 
     # Functions for the BK clique finding algorithm    
 

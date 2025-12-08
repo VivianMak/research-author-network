@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 from network import *
 
 API_KEY=""
@@ -11,7 +12,7 @@ with open('data/initial_data.json', 'r') as file:
 
 network = NetworkGraph()
 
-IDS = {
+PROF_IDS = {
     "5201322": "Sarah Spence Adams",
     "1769552": "Brad Minch",
     "2002806": "Victoria Preston",
@@ -39,22 +40,33 @@ def scrape_initial_profs():
         json.dump(r.json(), f, indent=2)
 
 
-def find_prof_network(prof_idx, depth):
-    collab_data = []
+def find_author_collabs(author_id, papers):
     collab_ids = []
-    author_id = INIT_DATA[prof_idx]['authorId']
-    papers = INIT_DATA[prof_idx]['papers']
+    # author_id = INIT_DATA[prof_idx]['authorId']
+    # papers = INIT_DATA[prof_idx]['papers']
     for p in papers:
-        for a in p['authors']:
-            collab_data.append({
-                "authorId": a['authorId'], 
-                "name": a['name']
-                })
-            collab_ids.append(a['authorId'])
+        for collaborator in p['authors']:
+            if collaborator['authorId'] != author_id:
+                collab_ids.append(collaborator['authorId'])
+            # collab_data.append({
+            #     "authorId": a['authorId'], 
+            #     "name": a['name']
+            #     })
+    return collab_ids
     
-    with open("data/p.json", "w") as f:
-        json.dump(collab_data, f, indent=2)
+    # with open("data/p.json", "w") as f:
+    #     json.dump(collab_data, f, indent=2)
 
+def find_papers(author_list):
+    # can't request 100+ authors, split up author list into diff requests?
+    
+    r = requests.post(
+        'https://api.semanticscholar.org/graph/v1/author/batch',
+        params={'fields': 'papers.authors'},
+        json={"ids":author_list}
+    )
+    return r.json()
 
-find_prof_network(0, 1)
-
+# print(type(find_papers(['5201322'])))
+# print(type(INIT_DATA))
+# print(find_papers(['5201322', '1769552']))
