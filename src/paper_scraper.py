@@ -21,7 +21,7 @@ PROF_IDS = {
     # "35474768": "Rachel Yang",
     # "66274227": "Kene Mbanisi",
     # "2291589240": "Steve Matsumoto",
-    # "5226037": "Sam Michalka"
+    "5226037": "Sam Michalka"
 }
 
 
@@ -75,6 +75,7 @@ def find_papers(author_list):
 
     with open("data/papers_test.json", "w") as f:
         json.dump(all_papers, f, indent=2)
+    print("done")
 
     return all_papers
 
