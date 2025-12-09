@@ -8,14 +8,10 @@ class BK:
 
         # All sets of cliques
         self.maximal_cliques = []
-
-        
+   
         self.network = network  # network object
         self.authors = network.author_ids  # list of authors
         
-
-        # Current neighbors
-        self.v_neighbors = {}
 
 
     def bk_clique(self, R, P, X):
@@ -30,41 +26,42 @@ class BK:
 
 
         if (not P) and (not X):
-            print(f"Outputting the current clique: {R}")
-            self.maximal_cliques.append(R)
+            print(f"Outputting the a maximal clique: {R}")
+            self.maximal_cliques.append(R.copy())
 
-        for vertex in P:
-            print(f"At current loop for vertex: {vertex}")
+        for vertex in list(P):
+
+            # Get neighbors of current vertex
+            neighbors = set(self.network.bk_get_neighbors(vertex))
 
             # Redefine arguements in entire set
-            R.add(vertex)     # add vertex of current loop
-            P = P & set(self.network.bk_get_neighbors(vertex))    # neighbors of current vertex
-            X = X & set(self.network.bk_get_neighbors(vertex))    # 
-
-            print("INPUTS TO RECURSIVE CALL ARE: ")
-            print(f"R = {R}")
-            print(f"P = {P}")
-            print(f"X = {X}")
+            R_temp = R + [vertex]     # add vertex of current loop
+            P_temp = P & neighbors    # candidates intersect neighbors
+            X_temp = X & neighbors    # candidates intersect excluded verticies
 
             # Recursive call 
-            self.bk_clique(R, P, X)
-
-            # print(f"At the current iteration of vertex: {vertex}, the set of cadidate verticies P are: {P}")
+            self.bk_clique(R_temp, P_temp, X_temp)
 
             # Remove checked candidates
-            P.re(vertex)
+            P.remove(vertex)
             X.add(vertex)
 
 
 
     def get_maximal_cliques(self):
+        """
+        Calls Bron-Kerbosch algorithm
+        
+        Return:
+            maximal_cliques: (list) of all clique
+        """
 
-        R = set()
+        R = []
         P = set(self.authors)
         X = set()
 
         print("---- FINDING MAXIMAL CLIQUES -----")
-        print(f"All candidates set P starting with: {P}")
+        # print(f"All candidates set P starting with: {P}")
 
         self.bk_clique(R, P, X)
 
