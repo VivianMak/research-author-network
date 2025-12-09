@@ -26,8 +26,9 @@ class BK:
 
 
         if (not P) and (not X):
-            print(f"Outputting the a maximal clique: {R}")
-            self.maximal_cliques.append(R.copy())
+            # print(f"Outputting the a maximal clique: {R}")
+            if len(R) > 3:
+                self.maximal_cliques.append(R.copy())
 
         for vertex in list(P):
 
