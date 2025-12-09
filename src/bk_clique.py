@@ -4,13 +4,15 @@ from network import NetworkGraph
 
 class BK:
 
-    def __init__(self, network:NetworkGraph):
+    def __init__(self, network:NetworkGraph, prof_ids):
 
         # All sets of cliques
         self.maximal_cliques = []
    
         self.network = network  # network object
         self.authors = network.author_ids  # list of authors
+
+        self.prof_ids = prof_ids
         
 
 
@@ -27,7 +29,7 @@ class BK:
 
         if (not P) and (not X):
             # print(f"Outputting the a maximal clique: {R}")
-            if len(R) > 3:
+            if (len(R) > 2) and (set(self.prof_ids.keys()) & set(R)):
                 self.maximal_cliques.append(R.copy())
 
         for vertex in list(P):
