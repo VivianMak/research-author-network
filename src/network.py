@@ -23,7 +23,7 @@ class NetworkGraph:
         Args:
             author_id: (string) the id of corresponding author
         """
-        print("----ADDING NEW AUTHOR-----")
+        # print("----ADDING NEW AUTHOR-----")
         # Add new author to list
         self.author_ids.append(author_id)
 
