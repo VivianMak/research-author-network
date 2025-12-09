@@ -68,4 +68,8 @@ class BK:
 
         self.bk_clique(R, P, X)
 
+        print(f"---- FINISHED -----")
+        print(f"The set of all cliques are: {self.maximal_cliques}.")
+        print(f"There are a total of {len(self.maximal_cliques)} cliques for professors: {', '.join(self.prof_ids.values())}.")
+
         return self.maximal_cliques
