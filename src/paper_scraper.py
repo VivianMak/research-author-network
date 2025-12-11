@@ -26,6 +26,9 @@ PROF_IDS = {
 
 
 def scrape_initial_profs():
+    '''
+    Scrape papers of initial professors
+    '''
     with open('data/prof_author_ids.json', 'r') as file:
         print("READING JSON FILES OF AUTHORS....")
         data = json.load(file)
@@ -41,31 +44,31 @@ def scrape_initial_profs():
 
 
 def find_author_collabs(author_id, papers):
+    '''
+    Find all direct collaborations of a specified author using the 
+    list of all their papers previously scraped
+    
+    :param author_id: string of digits representing an author ID
+    :param papers: list of papers scraped from the API containing multiple
+    authors' papers
+    '''
     collab_ids = []
-    # author_id = INIT_DATA[prof_idx]['authorId']
-    # papers = INIT_DATA[prof_idx]['papers']
     for p in papers:
         for collaborator in p['authors']:
             if collaborator['authorId'] != author_id and collaborator['authorId'] is not None:
                 collab_ids.append(collaborator['authorId'])
-                # if collaborator['authorId'] is None:
-                #     print("NONE")
-                #     print(collaborator)
-                #     print()
-            # collab_data.append({
-            #     "authorId": a['authorId'], 
-            #     "name": a['name']
-            #     })
     return collab_ids
-    
-    # with open("data/p.json", "w") as f:
-    #     json.dump(collab_data, f, indent=2)
 
 def split_list(lst, chunk_size):
+    "Split list into chunks"
     return [lst[i:i + chunk_size] for i in range(0, len(lst), chunk_size)]
 
 def find_papers(author_list):
-    # Example with a list of 50 elements
+    '''
+    Find all papers in a batch API call for a list of author IDs
+    
+    :param author_list: list of string author IDs
+    '''
     all_papers = []
     chunked_list = split_list(author_list, 100)
     for chunk in chunked_list:
@@ -79,7 +82,3 @@ def find_papers(author_list):
         time.sleep(1)
 
     return all_papers
-
-# print(type(find_papers(['5201322'])))
-# print(type(INIT_DATA))
-# print(find_papers(['5201322', '1769552']))
