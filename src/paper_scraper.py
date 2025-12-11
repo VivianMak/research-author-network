@@ -16,7 +16,7 @@ PROF_IDS = {
     "5201322": "Sarah Spence Adams",
     # "1769552": "Brad Minch",
     # "2002806": "Victoria Preston",
-    # "50058359": "David Shuman",
+    "50058359": "David Shuman",
     # "134901850": "Zachary del Rosario",
     # "35474768": "Rachel Yang",
     # "66274227": "Kene Mbanisi",
@@ -72,6 +72,7 @@ def find_papers(author_list):
             json={"ids":chunk}
         )
         all_papers.extend(r.json())
+        time.sleep(1)
 
     with open("data/papers_test.json", "w") as f:
         json.dump(all_papers, f, indent=2)

@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import visualization
 import a_star
 
-def create_adjacency_collab(graph: NetworkGraph):
+def create_adjacency_collab(graph: NetworkGraph, input_depth):
     """
     Docstring for create_adjacency_collab
     """
@@ -28,8 +28,7 @@ def create_adjacency_collab(graph: NetworkGraph):
         # Add author's list of collborations
         graph.add_author_collab(prof_id, collabs)
 
-        
-        depth = 1
+        depth = input_depth
         scan_list = collabs
         while depth > 0:
             all_indirect_collabs = []
