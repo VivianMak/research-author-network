@@ -15,19 +15,21 @@ def main():
     
     graph = NetworkGraph()
 
-    create_adjacency_collab(graph)
+    create_adjacency_collab(graph, 1)
+
+    graph.save_matrix_as_csv("test1")
 
     # Cliques
-    bk = BK(graph, PROF_IDS)
-    _ = bk.get_maximal_cliques()
+    # bk = BK(graph, PROF_IDS)
+    # _ = bk.get_maximal_cliques()
 
-    new_mat = bk.remake_adjacency()
+    # new_mat = bk.remake_adjacency()
 
-    print(new_mat)
+    # print(new_mat)
     
-    # # Shortest Path: A-star
-    # path = find_path("5201322", "5226037", graph)
-    # print("Shortest path:", path)
+    # Shortest Path: A-star
+    path = find_path("5201322", "66274227", graph)
+    print("Shortest path:", path)
 
     # Visualization
 

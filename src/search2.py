@@ -31,6 +31,7 @@ def create_adjacency_collab(graph: NetworkGraph, input_depth):
         depth = input_depth
         scan_list = collabs
         while depth > 0:
+            print(f"Scan list: {len(scan_list)}")
             all_indirect_collabs = []
             print(f"Scanning depth {depth}...")
             depth = depth - 1

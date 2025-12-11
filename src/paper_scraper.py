@@ -14,14 +14,14 @@ network = NetworkGraph()
 
 PROF_IDS = {
     "5201322": "Sarah Spence Adams",
-    # "1769552": "Brad Minch",
-    # "2002806": "Victoria Preston",
+    "1769552": "Brad Minch",
+    "2002806": "Victoria Preston",
     "50058359": "David Shuman",
     # "134901850": "Zachary del Rosario",
     # "35474768": "Rachel Yang",
-    # "66274227": "Kene Mbanisi",
+    "66274227": "Kene Mbanisi",
     # "2291589240": "Steve Matsumoto",
-    "5226037": "Sam Michalka"
+    # "5226037": "Sam Michalka"
 }
 
 
@@ -46,8 +46,12 @@ def find_author_collabs(author_id, papers):
     # papers = INIT_DATA[prof_idx]['papers']
     for p in papers:
         for collaborator in p['authors']:
-            if collaborator['authorId'] != author_id:
+            if collaborator['authorId'] != author_id and collaborator['authorId'] is not None:
                 collab_ids.append(collaborator['authorId'])
+                # if collaborator['authorId'] is None:
+                #     print("NONE")
+                #     print(collaborator)
+                #     print()
             # collab_data.append({
             #     "authorId": a['authorId'], 
             #     "name": a['name']
@@ -73,10 +77,6 @@ def find_papers(author_list):
         )
         all_papers.extend(r.json())
         time.sleep(1)
-
-    with open("data/papers_test.json", "w") as f:
-        json.dump(all_papers, f, indent=2)
-    print("done")
 
     return all_papers
 
