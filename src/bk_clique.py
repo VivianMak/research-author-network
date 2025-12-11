@@ -1,6 +1,7 @@
 # Clique finding algorithm
-
+import numpy as np
 from network import NetworkGraph
+from itertools import combinations
 
 class BK:
 
@@ -10,9 +11,11 @@ class BK:
         self.maximal_cliques = []
    
         self.network = network  # network object
-        self.authors = network.author_ids  # list of authors
+        self.author_ids = network.author_ids  # list of authors
 
         self.prof_ids = prof_ids
+
+        self.new_author_ids = []
         
 
 
@@ -32,6 +35,9 @@ class BK:
             if (len(R) > 2) and (set(self.prof_ids.keys()) & set(R)):
                 self.maximal_cliques.append(R.copy())
 
+                for author in R:
+                    self.new_author_ids.append(author)
+
         for vertex in list(P):
 
             # Get neighbors of current vertex
@@ -50,7 +56,6 @@ class BK:
             X.add(vertex)
 
 
-
     def get_maximal_cliques(self):
         """
         Calls Bron-Kerbosch algorithm
@@ -60,7 +65,7 @@ class BK:
         """
 
         R = []
-        P = set(self.authors)
+        P = set(self.author_ids)
         X = set()
 
         print("---- FINDING MAXIMAL CLIQUES -----")
@@ -73,3 +78,38 @@ class BK:
         print(f"There are a total of {len(self.maximal_cliques)} cliques for professors: {', '.join(self.prof_ids.values())}.")
 
         return self.maximal_cliques
+    
+
+    def remake_adjacency(self):
+        """
+        Make an adjacency matrix based on complete cliques.
+            Remvove all the research authors that are one-off collaborators
+        
+        Return:
+            adj_mat: (List(list)) an adjacency matrix of collaborations
+        """
+        print("---- Filtering the Adjacency Matrix ----")
+        print(f"The new adjacency matrix is {len(self.new_author_ids)} size.")
+
+        # Numpy array of known size
+        collab_mat = np.zeros((len(self.new_author_ids), 
+                               len(self.new_author_ids)), 
+                               dtype=int)
+        
+        
+        # Create a hash map for author to global index
+        index_map = {}
+        for i, author in enumerate(self.new_author_ids):
+            index_map[author] = i 
+
+        for clique in self.maximal_cliques:
+
+            # Find all indexes of clique members
+            idxs = [index_map[a] for a in clique]
+
+            # Creates subsets of unordered pairs
+            for i, j in combinations(idxs, 2):
+                collab_mat[i, j] += 1
+                collab_mat[j, i] += 1
+
+        return collab_mat

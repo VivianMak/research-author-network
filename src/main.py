@@ -20,10 +20,14 @@ def main():
     # Cliques
     bk = BK(graph, PROF_IDS)
     _ = bk.get_maximal_cliques()
+
+    new_mat = bk.remake_adjacency()
+
+    print(new_mat)
     
-    # Shortest Path: A-star
-    path = find_path("2002806", "66274227", graph)
-    print("Shortest path:", path)
+    # # Shortest Path: A-star
+    # path = find_path("5201322", "5226037", graph)
+    # print("Shortest path:", path)
 
     # Visualization
 
