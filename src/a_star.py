@@ -46,29 +46,8 @@ def calculate_heuristic(current_author: str, goal_author: str, graph: NetworkGra
     if goal_author in neighbor_ids:
         heuristic = 1
     else:
-        heuristic = 2
+        heuristic = 0
     return heuristic
-
-
-def find_valid_neighbors(current_author: str, parent_author: str, graph: NetworkGraph):
-    """
-    Find the valid neighbors that we can go to next in the path finding algorithm.
-        Removes the parent node as a possible step.
-
-    Args:
-        current_author: string representing identity of current node.
-        parent_author: string representing identity of the previous node.
-        graph: a graph object representing the author network.
-
-    Returns:
-        A list of valid neighbors.
-    """
-    # From current author, find all neighbors
-    edges = graph.get_neighbors(current_author)
-
-    # If a neighbor matches a parent author, remove from list
-    neighbors = [(n, w) for n, w in edges if n != parent_author]
-    return neighbors
 
 
 def reconstruct_path(goal_node: Dict) -> List[str]:
@@ -114,15 +93,17 @@ def find_path(start_author: str, goal_author: str, graph: NetworkGraph) -> List[
         parent=None,
     )
 
+    counter = 0  # tie-breaker
+
     # Priority queue (min-heap) ordered by f = g + h
-    open_list = [(start_node["f"], start_author)]
+    open_list = [(start_node["f"], counter, start_node)]
     open_dict = {start_author: start_node}
     closed_set = set()
 
     while open_list:
         # Pop node with lowest f
-        _, current_author = heapq.heappop(open_list)
-        current_node = open_dict[current_author]
+        _, _, current_node = heapq.heappop(open_list)
+        current_author = current_node["author"]
 
         # Goal check
         if current_author == goal_author:
@@ -131,10 +112,7 @@ def find_path(start_author: str, goal_author: str, graph: NetworkGraph) -> List[
         closed_set.add(current_author)
 
         # Explore neighbors (with weights)
-        neighbors = graph.get_neighbors(
-            current_author
-        )  # returns [(neighbor, weight), ...]
-        for neighbor_author, weight in neighbors:
+        for neighbor_author, weight in graph.get_neighbors(current_author):
             if neighbor_author in closed_set:
                 continue
 
@@ -148,11 +126,14 @@ def find_path(start_author: str, goal_author: str, graph: NetworkGraph) -> List[
                     parent=current_node,
                 )
                 open_dict[neighbor_author] = neighbor_node
-                heapq.heappush(open_list, (neighbor_node["f"], neighbor_author))
+                counter += 1
+                heapq.heappush(open_list, (neighbor_node["f"], counter, neighbor_node))
             elif tentative_g < open_dict[neighbor_author]["g"]:
-                # Found a better path
                 neighbor_node = open_dict[neighbor_author]
                 neighbor_node["g"] = tentative_g
                 neighbor_node["f"] = tentative_g + neighbor_node["h"]
                 neighbor_node["parent"] = current_node
-                return "No Path Found"  # No path found
+                counter += 1
+                heapq.heappush(open_list, (neighbor_node["f"], counter, neighbor_node))
+
+    return ["No Path Found"]  # No path found

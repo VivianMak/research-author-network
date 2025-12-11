@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import visualization
 import a_star
 
+
 def main():
     graph = NetworkGraph()
     # author = "vp"
@@ -17,7 +18,7 @@ def main():
     for i, (prof_id, prof_name) in enumerate(PROF_IDS.items()):
         print(f"Finding {prof_name}'s collaborators...")
         # papers = INIT_DATA[i]['papers']
-        collabs = find_author_collabs(prof_id, papers[i]['papers'])
+        collabs = find_author_collabs(prof_id, papers[i]["papers"])
 
         # Check if author exists yet fr depth 0
         if not graph.check_author(prof_id):
@@ -26,7 +27,6 @@ def main():
         # Add author's list of collborations
         graph.add_author_collab(prof_id, collabs)
 
-        
         depth = 1
         scan_list = collabs
         while depth > 0:
@@ -40,7 +40,7 @@ def main():
                     print(col)
                 # print(col)
                 try:
-                    p = indirect_papers[j]['papers']
+                    p = indirect_papers[j]["papers"]
                 except TypeError:
                     print(f"id: {col}")
                     print(f"index: {j}")
@@ -55,16 +55,14 @@ def main():
             scan_list = all_indirect_collabs
 
     # Print out adjacency matrix
-    df = graph.get_collabs()
-    graph.save_matrix_as_csv("test1")
+    # df = graph.get_collabs()
+    # graph.save_matrix_as_csv("test1")
 
-    edges = graph.get_neighbors("5201322")
-    print(f"the neighbors of Sarah are {edges}")
+    # edges = graph.get_neighbors("5201322")
+    # print(f"the neighbors of Sarah are {edges}")
 
-    edges2 = graph.get_neighbors("5226037")
-    print(f"the neighbors of Sam are {edges2}")
-
-
+    # edges2 = graph.get_neighbors("5226037")
+    # print(f"the neighbors of Sam are {edges2}")
 
     # # Build graph from adjacency matrix
     # A = df.values
@@ -78,8 +76,9 @@ def main():
     # visualization.visualize(G)
 
     # # shortest path
-    # path = a_star.find_path("5201322", "5226037", graph)
-    # print("Shortest path:", path)
+    path = a_star.find_path("5201322", "5226037", graph)
+    print("Shortest path:", path)
+
 
 if __name__ == "__main__":
     main()
