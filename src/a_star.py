@@ -46,7 +46,7 @@ def calculate_heuristic(current_author: str, goal_author: str, graph: NetworkGra
     if goal_author in neighbor_ids:
         heuristic = 1
     else:
-        heuristic = 0
+        heuristic = 2  # Default heuristic if not a direct neighbor
     return heuristic
 
 
