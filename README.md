@@ -14,6 +14,9 @@ To analyze interactions across research areas, we construct a global collaborati
 
 Below are some examples of level of connectivity between researchers (professors at Olin College).
 
+![Graph Visualization](./docs/final.JPG)
+![Path Visualization](./docs/path.JPG)
+
 
 ## Supporting Documents
 - [Final Presentation Slides](https://docs.google.com/presentation/d/1oJGapH64HUfconQeI0Dbsks-0ZWj_1nlFtQGEyYJGQQ/edit?slide=id.g3917892435e_0_0#slide=id.g3917892435e_0_0)
