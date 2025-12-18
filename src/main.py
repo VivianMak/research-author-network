@@ -20,17 +20,17 @@ def main():
     # graph.save_matrix_as_csv("big2")
 
     # Cliques
-    # bk = BK(graph, PROF_IDS)
-    # _ = bk.get_maximal_cliques()
+    bk = BK(graph, PROF_IDS)
+    _ = bk.get_maximal_cliques()
 
-    # new_mat = bk.remake_adjacency()
+    new_mat = bk.remake_adjacency()
 
     # print(new_mat)
     
     # Shortest Path: A-star
-    # for key in PROF_IDS.keys():
-    #     path = find_path("5201322", "1769552", graph)
-    #     print("Shortest path:", path)
+    for key in PROF_IDS.keys():
+        path = find_path("5201322", "1769552", graph)
+        print("Shortest path:", path)
 
     # Visualization
 
@@ -57,8 +57,6 @@ def main():
         path = find_path(path_pair[0], path_pair[1], graph)
         print("Shortest path:", path)
         visualization.visualize(G, path)
-
-    
 
 
 if __name__ == "__main__":
