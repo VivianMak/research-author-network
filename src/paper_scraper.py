@@ -14,8 +14,8 @@ network = NetworkGraph()
 
 PROF_IDS = {
     "5201322": "Sarah Spence Adams",
-    # "1769552": "Brad Minch",
-    # "2002806": "Victoria Preston",
+    "1769552": "Brad Minch",
+    "2002806": "Victoria Preston",
     # "50058359": "David Shuman",
     # "134901850": "Zachary del Rosario",
     # "35474768": "Rachel Yang",
