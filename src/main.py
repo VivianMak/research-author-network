@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import visualization
 
 from a_star import find_path
-from search2 import create_adjacency_collab
+from search import create_adjacency_collab
 from network import NetworkGraph
 from bk_clique import BK
 from paper_scraper import PROF_IDS

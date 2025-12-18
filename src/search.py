@@ -1,16 +1,14 @@
-import json
-import time
 from network import NetworkGraph
 from paper_scraper import INIT_DATA, PROF_IDS, find_author_collabs, find_papers
-import networkx as nx
-import numpy as np
-import matplotlib.pyplot as plt
-import visualization
-import a_star
+
 
 def create_adjacency_collab(graph: NetworkGraph, input_depth):
     """
-    Docstring for create_adjacency_collab
+    Create an adjacency matrix representing author collaborations.
+
+    Args:
+        graph: a graph object representing the author network.
+        input_depth: int representing how deep to scan for indirect collaborations.
     """
 
     print("---- Creating Adjacency Matrix ----")

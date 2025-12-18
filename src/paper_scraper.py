@@ -1,3 +1,5 @@
+"""Anything related to API calls to Semantic Scholar"""
+
 import requests
 import json
 import time
